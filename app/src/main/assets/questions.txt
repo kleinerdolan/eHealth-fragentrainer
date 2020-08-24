@@ -1,0 +1,3712 @@
+{
+##################################
+###-------------U1-------------###
+##################################
+	1.1 Wie unterteilt sich E-Health?
+	{
+		- eCare
+		- eAdminstration
+		- ePrevention
+		- eLearning
+		- eResearch
+		- ePublicHealth
+	}
+
+	1.2 Nenne 5 Nutzen/Ziele von E-Health?
+	{
+		- Dem Patienten den Zugang zu geeigneten medizinischen Maßnahmen eröffnen
+		- Bessere medizinische Versorgung durch Behebung von Informationsdefiziten
+		- Stärkung der Zusammenarbeit zwischen Ärzten und anderen Gesundheitsberufen, die gemeinschaftlich für die Versorgung eines Patienten verantwortlich sind
+		- Patient Empowerment“: dem Patienten mehr Informationen und Verantwortung geben und ihn besser und aktiver in seine Betreuung und Therapie einbeziehen
+		- Effektivere, bessere Versorgung durch neue Versorgungsformen
+		- Medizinische Informationen für Patienten, Selbsthilfegruppen
+		- Mehr Patienten können behandelt werden
+		- Direkte Konsultation eines Arztes über das Internet
+	}
+
+	1.3 Was ist eAdministration?
+	{
+		- Administrative Aufgaben bezüglich aller digitalen administrativen Daten wie eÜberweisungen, eQuittungen, eRezept
+		- Folie 18
+	}
+
+	1.4 Gehört die automatische Auswertung von Röntgenaufnahmen zum Aufgabenbereich von eHealth? Begründen Sie ihre Antwort?
+	{
+		- Nein. Da:
+			* Bei E-Health liegt der Fokus in Anwendungen der med. Informatik in der unmittelbaren oder mittelbaren Patientenversorgung
+			* Sowie im Aspekt der Vernetzung von verschiedenen Einrichtungen im Gesundheitswesen
+		- Folie 8
+	}
+
+	1.5 Was ist Pseudonymisierung und wofür wird es im Kontext von eHealth verwendet?
+	{
+		- Pseudonym lässt keine Rückschlüsse auf Echte Identität der Person
+		- Pseudonym kann aber wiedererkannt werden
+		  -> Also nicht anonym
+		- (Langzeit-)Studien von Patientendaten
+	}
+
+	1.6 Wieso können durch eCare die Kosten nicht groß gesenkt werden?
+	{
+		- IT Spezialisten und Programmierer kosten zusätzlich Geld
+		- Anschaffung, Update und Wartung von IT Systemen
+	}
+
+	1.7 Wie kann durch eCare eine Kostensenkung erzielt werden? (2 Möglichkeiten)
+	{
+		- Vermeidung doppelter Untersuchungen
+		- Zeitgewinn durch schnellere Information des Arztes
+		- Effektivität der Versorgung steigern, Kostensenkung
+	}
+
+	1.8 Erläutern Sie den Begriff „Patient Empowerment! und nennen sie 2 Vorteile?
+	{
+		Patienten mehr Infos und Verantwortung geben und ihn besser in die Behandlung einbeziehen. Evtl. Beisteuerung von Daten durch Patienten selbst.
+
+		Vorteile:
+			* Mehr Daten für den Arzt durch zB Diabetes-Tagebücher
+			* Selbstbestimmung über Daten also Kontrolle über Wissen der Ärzte im Bezug auf persönliche Daten
+	}
+
+	1.9 Nennen Sie 5 Ziele von eCare?
+	{
+		- Zugang zu geeigneten medizinischen Maßnahmen dem Patienten eröffnen, wo diese nicht verfügbar sind (Telemedizin, Telemonitoring)
+		- Informationsdefizite beheben
+		- Kooperative Behandlung erleichtern (Interoperabilität)
+		- Patient in Behandlung einbinden
+		- Effektivität der Versorgung steigern
+	}
+
+	1.10 Wie kann der Datenschutz bei der Weitergabe von Patientendaten insbesondere in Bezug auf klinische Studien geschützt werden?
+	{
+		- Anonymisierung: Es werden keine persönlichen Informationen bezüglich des Patienten angegeben, außer den benötigten Daten, z. CT-Scan
+		- Pseudonymisierung: Es ist möglich, den Patienten zu identifizieren, jedoch durch einen Spitznamen, z. beim Testen neuer Medikamente.
+	}
+}
+
+
+
+
+{
+##################################
+###-------------U2-------------###
+##################################
+	2.1 Warum sind landesweite E-Health Infrastrukturen sinnvoll?
+	{
+		- Zur Gewährleistung landesweiter Interoperabilität
+		- Für eHealth Anwendungen muss es letztendlich egal sein, welche Software oder App und welchen Anbieter der Arzt, das Krankenhaus oder der Patient hat. Es muss so selbstverständlich klappen, wie telefonieren (= man kann jemanden problemlos anrufen, egal welches Endgerät oder Provider man hat).
+	}
+
+	2.2 Die Telematikinfrastruktur wurde nach dem Top-Down Ansatz entworfen. Beschreiben Sie diesen Ansatz und beschreiben Sie worin der Unterschied zum Bottom-Up Ansatz besteht?
+	{
+		Top-Down:
+			- Der Gesetzgeber bestimmt
+			- Die Industrie baut
+			- Ärzte / Zahnärzte / Apotheker / Patienten usw. (müssen) machen
+
+		Bottom-Up:
+			- Einzelne Ärzte (Zahnärzte, Apotheker usw.) haben eine Idee
+			- Ein Krankenhaus kommt dazu
+			- Sie vernetzen sich, starten eine E-Health Anwendung
+			- Oder ein Software-Hersteller bietet eine E-Health Anwendung an
+			- Mehr Ärzte kommen hinzu, eine „Insel“ entsteht
+			- Entscheidender Punkt: gelingt die Integration mit weiteren Inseln?
+	}
+
+	2.3 Nennen Sie jeweils 2 Vor- und Nachteile des Top-Down und des Bottom-Up Ansatzes?
+	{
+		Top-Down:
+			+ Flächendeckende Vernetzung nach einem de-facto Standard
+			+ Interoperabilität der so entwickelten E-Health Anwendungen
+			+ Relevanter Markt für eHealth Hersteller (wirklich?)
+			+ Kontrollierte Sicherheit
+			- „Zwangsinfrastruktur“, erzeugt Widerstände
+			- Die entwickelten Lösungen müssen nicht unbedingt die Besten sein (wir wissen es noch nicht)
+
+		Bottom-Up:
+			+ Freiwillige Lösungen, bessere Motivation für die Anwender
+			+ "Besserer Wettbewerb ! nur gute Lösungen können sich etablieren"
+			  ->theoretisch ja, klappt aber nicht gut... Wettbewerb wird oft durch technische Abschottung vieler Anbieter behindert
+			- Insellösungen, in vielen Fällen inkompatibel untereinander
+			- Häufig Abschottung von Anwendungen seitens der Hersteller
+			- Keine flächendeckende Vernetzung
+			- Sicherheitsanforderungen / -architektur?
+			- Die Wahrscheinlichkeit für einen Patienten, dass alle seine Ärzte eine Anwendung unterstützen, ist klein
+	}
+
+	2.4 Was war der Lipobay Skandal (2001)? Warum war er für die Entwicklung der Telematikinfrastruktur bedeutend?
+	{
+		- Es gab nicht erkannte Wechselwirkungen zwischen zwei Medikamenten, da die behandelnde Ärzte nicht den Überblick besaßen, welche Medikamente ihre Patienten nahmen und wie die Wechselwirkungen zwischen den Medikamenten war
+		- Daraufhin wurde 2003 mit dem GKV-Modernisierungsgesetz entgegengesteuert.
+	}
+
+	2.5 Nennen Sie 3 gesetzlich vorgeschriebene Anwendungen der Telematikinfrastruktur?
+	{
+		- Versichertenstammdatenmanagement (VSDM, Pflichtanwendung)
+		- eRezept, Arbeitsunfähigkeitsbescheinigung (AU-Bescheinigung)
+		- Notfalldatenmanagement (NFDM)
+		- Kommunikation im Medizinwesen (KIM)
+		- eMedikationsplan / Arzneimitteltherapiesicherheitsprüfung (AMTS)
+		- ePatientenakte (Patientenfach, Patientenquittung, Impfpass, Mutterpass, weitere)
+		- Organspendeerklärung
+		- Hinweise über Organspendeerklärung, Patientenverfügung, Vorsorgevollmacht
+	}
+
+	2.6 Es gibt 2 Ansätze für den Aufbau einer TI. Welchen setzt die deutsche TI um?
+	{
+		Top-Down
+	}
+
+	2.7 Was sind Ziele der eGK und der TI?
+	{
+		Wirtschaftlichkeit, Qualität und Transparenz im Gesundheitswesen steigern, durch:
+			- Vernetzung des deutschen Gesundheitswesens
+			- Schaffung einer Infrastruktur / Plattform / „Datenautobahn des Gesundheitswesens“
+			- Bausteine und Werkzeuge für bereits geplante und zukünftige E-Health Anwendungen
+			- Sinnvolle und nutzbringende E-Health Anwendungen
+	}
+
+	2.8 Was ist unter Security-by-Design und Privacy-by-Default zu verstehen?
+	{
+		- Security by Design: Anwendungen sicher machen; Werkzeug für privacy by design; Sicherstellung der CIA Ziele;
+		- Privacy by Design: Ich mach ein Systemdesign so, dass das System nur zulässige Daten erhebt, teilt. System berücksichtigt Datenschutzanforderungen schon in der Designphase einer Software. Bsp. Daten verschlüsselt erfassen; Nur notwendige Daten erfassen; Kontrolle über eigene Daten; Datenschutz(grundverordnung); Recht auf Löschung, Information von Anfang an ins Design implementieren
+		- Privacy by Default: Das System arbeitet schon in der Grundeinstellung datenschutzkonform. Bsp. Nutzer muss nicht erst Verschlüsselung aktivieren.
+		- Security by Default: Schon die Grundeinstellungen einer Software arbeiten sicher.
+
+	}
+
+	2.9 Wer sind die Akteure beim Aufbau/Bau der Telematik Infrastruktur?
+	{
+		- gematik GmbH (Berlin) gegründet im gesetzlichen Auftrag
+		- Gesellschafter: Selbstverwaltung im Gesundheitswesen
+			* Ärzte (Bundesärztekammer, Kassenärztliche Bundesvereinigung)
+			* Zahnärzte (BZÄK, KZBV) • Apotheker (ABDA, DAV)
+			* Krankenhäuser (Deutsche Krankenhausgesellschaft)
+			* Krankenkassen (GKV-Spitzenverband)
+			* BMG (Bundesministerium für Gesundheit)
+	}
+
+	2.10 Wieso wird eine landesweite Interoperabilität bei eHealth Infrastrukturen benötigt?
+	{
+		- Für eHealth Anwendungen muss es letztendlich egal sein, welche Software oder App und welchen Anbieter der Arzt, das Krankenhaus oder der Patient hat.
+		- Es muss so selbstverständlich klappen, wie telefonieren (= man kann jemanden problemlos anrufen, egal welches Endgerät oder Provider man hat).
+	}
+
+	2.11 Was versteht man unter einer „Insel“ im Bottom-Up Ansatz bei der Entwicklung von eHealth Anwendungen?
+	{
+		- kleine Ideen werden an unterschiedlichen Orten umgesetzt
+		- Lösungen sind inkompatibel (keine Interoparabilität)
+		- Lösungen für individuelle Probleme für eine Gruppe von z.B. Ärzten
+		- Verschiedene Regionen haben unterschiedliche Lösungen (= Insel)
+	}
+
+	2.12 Warum ist die Telematik Infrastruktur von besonderer Bedeutung und aus welchem Anlass wurde sie aufgebaut?
+	{
+		- Existieren von deutlichen Defiziten in der Vernetzung, Kommunikation und Zusammenarbeit im Gesundheitswesen, mithilfe der TI soll an dieser Stelle Abhilfe geschaffen werden
+		- Anlass: schwerwiegende Nebenwirkungen bei Kombination von zwei Medikamenten  Lipobay-Skandal (beispielsweise haben verschiedene Ärzte je ein Medikament verschrieben, wussten aber jeweils nichts von der anderen Verschreibung
+	}
+
+	2.13 Beschreiben Sie 3 richtige Vorgehensweisen bei eHealth Projekten?
+	{
+		- Datenschutz und Informationssicherheit bereits im Design des Projektes und der Software berücksichtigen
+		- Prozesse des Gesundheitswesens im Design berücksichtigen
+		- Lösungen nach Bedarf des Gesundheitswesens entwickeln
+	}
+
+	2.14 Ist es sinnvoll eine landesweite eHealth Infrastruktur nach Bottom-Up Ansatz aufzubauen?
+	{
+		- Top-down:
+			* Gesetzgeber bestimmt, andere müssen folgen
+		- Bottom-up:
+			* einzelne Ärzte oder Praxen haben Ideen, andere können mitmachen.
+
+		-> Bottom-up Ansatz stellt die Medizin vor einige Herausforderungen, da sich sehr einfach Inseln bilden. Nur wenn diese zusammenschmelzen hat es am Ende ein nutzen für alle
+		-> Top-Down macht auf jeden Fall mehr Sinn (Meiner Meinung nach)
+	}
+}
+
+
+
+
+{
+##################################
+###-------------U3-------------###
+##################################
+
+	3.1 Welche Vorteile hat die Entkopplung von Plattform und Anwendungen?
+	{
+		- Beliebige Anwendungen, die ins Architekturschema passen, können unterstützt werden, ohne Anpassung der Plattform
+		- Gemeinsame Plattform-Dienste können unverändert von mehreren Anwendungen verwendet werden
+	 	- Semantische Entkopplung (der Plattform ist egal, welche Informationen in der Anwendung ausgetauscht werden)
+		- Entkopplung von Maßnahmen der Informationssicherheit
+	}
+
+	3.2 Erklären Sie die Funktionsweise der Card-to-Card (C2C) Authentifizierung.
+	{
+		- Direkte Authentisierung zwischen 2 Chipkarten
+		- Mit Hilfe von Card Verifiable Certificates (CVC)
+		- Damit können bei der eGK Daten freigegeben werden
+			* z.B. Lesen/Schreiben Notfalldaten ohne PIN
+		- Kryptographische Schlüssel können aktiviert werden
+			* Zugriff mit Hilfe der eGK auf verschlüsselte Patientendaten nur bei Anwesenheit (also nach Freischaltung) eines HBA oder SMC
+		- Rollenbasierte Autorisierung
+			* z.B. Notfalldaten können nach Authentisierung eines eArztausweises, nicht aber eines eApothekerausweises auf die eGK geschrieben werden
+		- „Sperrung“ der CVC über einen komplizierten Mechanismus, so dass ein gestohlener HBA (inkl. PIN) nicht mehr von eGKs (offline!) akzeptiert wird
+			*„Zeit“-Information & Nachladbarkeit
+	}
+
+	3.3 Wie Funktioniert das „Zwei-Schlüssel-Prinzip“?
+	{
+		- Für jeden Datenzugriff müssen 2 Chipkarten zusammenarbeiten
+			1. die eGK des Patienten
+			2. der HBA oder Institutionskarte eines Leistungserbringers
+		- aber nicht zwangsweise gleichzeitig:
+		  -> Berechtigungskonzepte angedacht, so dass ein HBA/SMC mit Hilfe der eGK berechtigt wird, auch in Abwesenheit der eGK auf Daten zuzugreifen
+		- Ausnahmen davon: Zugriff des Versicherten (i.d.R. über mobile Geräte)
+	}
+
+	3.4 Wie wird eine Nachvollziehbarkeit der Zugriffe auf die Patientendaten im TI-Umfeld sichergestellt?
+	{
+		-> Logging zur Datenschutzkontrolle
+		- Alle Zugriffe auf Daten und möglichst alle Zugriffsversuche
+		- Erst loggen, dann zugreifen
+		- Log auf eGK (50 Einträge Ringspeicher)
+		- und (falls online-Anwendung) Fachdienst online
+	}
+
+	3.5 Über welche Zone der TI-Architektur kann der Patient seine Daten einsehen?
+	{
+		Personal Zone -> (Zone in der TI Architektur)
+	}
+
+	3.6 Warum werden für Anwendungen in der TI Multireferenz-PINs eingesetzt?
+	{
+		Nach PIN-Eingabe soll nur eine Anwendung freigegeben werden und nicht global alle Anwendungen auf der Karte.
+	}
+
+	3.7 Erklären Sie die Eigenschaften von SOA in der TI-Architektur?
+	{
+		- Nachrichtenbasiert, SOAP (leider nicht REST), typischerweise mit Intermediär (Broker) für jede Anwendung
+		- Mehrere Services (Fachdienste, Unterstützungsdienste)
+	}
+
+	3.8 Welche Zugangsmöglichkeiten gibt es in das geschlossene Netz der TI?
+	{
+		- Konnektor ← →  VPN-Konzentrator
+		- Sicherheitsgateways/Proxies für externe (geschlossene) Netze und Anwendungen
+		- Internet über Sicherheitsgateway (! sicheres surfen im Internet)
+	}
+
+	3.9 Welche Patientendaten sollen offline und dezentral auf der eGK gespeichert werden?
+	{
+		- Notfalldaten
+		- Versichertenstammdaten
+		- „Kommunikation im Medizinwesen“ (KIM, früher KOM-LE: Kommunikation der Leistungserbringer) → sichere E-Mail über S/MIME
+		- Medikationsplan / AMTS (Arzneimitteltherapiesicherheitsprüfung)
+	}
+
+	3.10 Was wird als „Quantified Self“ bezeichnet?
+	{
+		- „The Quantified Self“ ist ein Netzwerk aus Anwendern und Anbietern von Methoden sowie Hard- und Softwarelösungen, mit deren Hilfe sie z. B. umwelt- und personenbezogene Daten aufzeichnen, analysieren und auswerten.
+		- Es umfasst die Mittel und Methoden zur Erfassung von Daten aus allen Lebensbereichen.
+		- “self knowledge through numbers”
+	}
+
+	3.15 Wie funktioniert die Ende-zu-Ende Verschlüsselung in der TI?
+	{
+		- Daten werden in einem Konnektor dezentral verschlüsselt und erst wieder in einem Konnektor oder in einer „Vertrauenswürdigen Ausführungsumgebung“ (VAU) für den Patientenzugang entschlüsselt
+		- Schlüsselmanagement jedoch zentral, insb. Verschlüsselungsschlüssel
+	}
+
+	3.17 Was ist die zentrale Aufgabe des Konnektors im Ramen der TI?
+	{
+		Anbindung von Arzt- /Zahnarztpraxen, Krankenhäuser, Apotheken und weiterer Einrichtungen des Gesundheitswesens in das zentrale Netz der TI
+	}
+
+	3.18 Warum wurde der Top-Down Ansatz für den Ausbau der landesweiten eHealth Infrastruktur gewählt?
+	{
+		- Flächendeckende Vernetzung nach einem de-facto Standard
+		- Interoperabilität der so entwickelten E-Health-Anwendungen
+		- Relevanter Markt für E-Health Hersteller
+		- Kontrollierte Sicherheit
+	}
+
+	3.19 Sind die Geräte/Anwendungen des Versicherten über Konnektoren verknüpft?
+	{
+		Nein. Sie sind an Fachdienste angebunden.
+	}
+
+	3.20 Welches Ziel hat der Aufbau der TI?
+	{
+		Interoperabilität
+	}
+
+	3.21 Nennen Sie 5 grundlegende Paradigmen der TI?
+	{
+		- TI als geschlossenes Netz/System
+		- Alle Akteure/Geräte in der TI haben kryptografische Identität
+		- Ende-zu-Ende Verschlüsselung
+		- C2C Autentisierung
+		- Offline vs. Online Speicherung von medizinischen Daten
+		- Patientenindividuelle Verschlüsselung
+		- Nachrichtenbasierte Kommunikation über SOAP
+		- Zwei-Schlüssel-Prinzip
+		- Logging zur Datenschutzkontrolle
+		- Technische Autorisierung
+		- Online Aktualisierung von Chipkarten durch CAMS
+		- Für jede „Datei“ auf einer Chipkarte sind Rechte festgelegt
+	}
+
+	3.22 Was ist ein „Card Verifiable Certificate“ und inwiefern unterscheidet es sich von einem X 509?
+	{
+		-> CVC ist ein Public-Key-Zertifikat, das in einem besonders kompakten Format gespeichert wurde
+		-> Gedacht für Kartenauthentifizierung
+		- X509 ist deutlich größer
+		- CVC ist minimiert
+			* Kann auf der Karte liegen
+			* Ermöglicht somit direkte Authentisierung zwischen zwei Chipkarten
+	}
+
+	3.23 Wie funktioniert der Zugriff auf die Daten der eGK ohne PIN?
+	{
+		- Über Card-to-Card Authentisierung (C2C)
+			* Wenn ein Notfall passiert, Notfalldaten können nach Authentisierung eines eArztausweises auf die eGK geschrieben werden
+		- Damit können bei der eGK Daten freigegeben werden
+			* z.B. Lesen/Schreiben Notfalldaten ohne PIN
+	}
+}
+
+
+
+
+{
+##################################
+###-------------U4-------------###
+##################################
+
+	4.1 Welche Probleme sind bei dem mobilen Kartenterminal erkennbar?
+	{
+		- Zu kleiner Bildschirm
+		- Mobiles Kartenterminal kann verloren gehen
+		- Noch keine Nutzung von Tablets
+	}
+
+	4.2 Was versteht man unter dem Begriff des Primärsystems?
+	{
+		- Primärsysteme sind Systeme der Leistungserbringer (Praxisverwaltungssystem, AVS, KIS, usw.)
+	}
+
+	4.4 Nennen Sie 4 Eigenschaften von stationären Kartenterminals.
+	{
+		- Kommunikation mit Konnektor über Ethernet / TLS-abgesichert
+		- Eigene kryptographische Identität (Pairing mit Konnektor)
+		- 2 Einsteckplätze: HBA und eGK
+		- PIN-Pad
+		- Kleiner Bildschirm für Statusmeldungen (z.B. „Bitte geben Sie Ihre PIN zum Schreiben von Notfalldaten ein“)
+		- Abgeschirmt, sicherheitszertifiziert
+	}
+
+	4.5 Nennen Sie 4 Merkmale der eGK.
+	{
+		- Werden von Krankenkassen ausgegeben, mit Foto
+		- PIN (6stellig)
+		- 96kB-128kB geschützter Speichers
+		- sicherheitszertifizierter Chip und Betriebssystem (COS)
+		- Nicht-auslesbare private Schlüssel und öffentliche Zertifikate (CVC und X.509-Zertifikate) zum Nachweis der Echtheit der Karte, technische Signatur/Authentisierung, Ver/Entschlüsselung von Daten
+		- Root-CV-Zertifikate zur Validierung (Prüfung) der C2C-Authentisierung eines HBA/SMC oder CAMS
+	}
+
+	4.6 Nennen und erläutern Sie kurz 5 Kernfunktionen des Konnektors?
+	{
+		- Netzkonnektor: VPN-Device
+		- Anwendungskonnektor
+		- Anwendungsproxy / -server
+		- Anbindung und Steuerung der Kartenterminals
+		- Steuerung der Chipkarten
+		- Anbieten von Basis-Diensten, wie Ver-/Entschlüsselung, Authentisierung
+		- Signaturanwendungskomponente (Erzeugen und Prüfen von elektronischen Signaturen)
+		-Vermitteln einer sicheren Internetverbindung
+			-> (über Security Gateway in der TI)
+		- Verbindung zum „Sicheren Netz der Kassenärztlichen Vereinigungen“ (SNK) und anderen mit der TI verbundenen Netzen und Anwendungen
+	}
+
+	4.7 Hat man automatisch Zugriff zur TI, wenn man ein neues Kartenterminal in einer Praxis ansteckt? Begründung?
+	{
+		Nein, da jedes Terminal eine kryptographische Identität hat und diese erst im Konnektor freigeschaltet werden muss.
+	}
+
+	4.8 Nennen Sie eine Möglichkeit wie der Konnektor eine sichere Verbindung zur TI aufbauen kann?
+	{
+		Über integriertes VPN mit IPsec
+	}
+
+	4.9 Zählen Sie 3 Anwendungen für Patienten in der Dänischen eHealth Infrastruktur auf?
+	{
+		- Online Terminvergabe, Kontaktinformationen, Warteliste, Qualitätsindikatoren, Bewertungen
+		- Foren für Patienten
+		- elektronische Patientenakte
+		- eRezept
+		- eMedikationsplan
+		- Viedokonferenz, Telemonitoring
+		- ...
+	}
+
+	4.10 Warum benötigen HBAs (Heilberufsausweise) 2 PINs?
+	{
+		Eine zur Signatur von Dokumenten und eine zur Authentifizierung
+	}
+
+	4.11 Weshalb gibt es ein stationäres und ein mobiles Kartenterminal und welche Eigenschaften hat das mobile Kartenterminal?
+	{
+		- stationär für Praxen/Krankenhäuser
+		- mobiles Terminal für Haus- und Heimbesuche des Arztes
+
+		Eigenschaften mobiles Kartenterminal:
+			- Zwischenspeicher zur Speicherung mobil erfasster Daten
+			- Daten werden für HBA des Arztes verschlüsselt gespeichert
+			- (viel zu kleiner) Bildschirm gemäß Spec
+			- Kleiner integrierter Anwendungskonnektor mit Fachlogik
+			-> Es wurden bereits Konzepte eingereicht für die Nutzung von Tablets als Eingabe-/Ausgabegeräte inkl. Mobilfunkverbindung
+		}
+
+	4.12 Was versteht man unter „Health Literacy“? Wieso ist sie wichtig?
+	{
+		Grundlegendes Verständnis von Medizin und medizinischen Daten. Ist notwendig, dass der Patient die von ihm gespeicherten Daten verstehen kann.
+	}
+
+	4.13 Wieso ist eine Verbindung zwischen Primärsystem und Konnektor über TLS 1.2 nicht verpflichtend?
+	{
+		-> Praxisverwaltungssystem muss nicht TLS verwenden. TLS sollte aus sicherheitsgründen aber eingesetzt werden.
+		"Die Gematik hat keine Zuständigkeit für den Bereich der Arztpraxen. Also für alles was außerhalb der Telematikinfrastruktur liegt. Also kann die Gematik auch nicht verpflichtend vorschreiben, dass die Primärsysteme eine TLS Verbindung aufbauen können müssen." - Georgios Raptis
+	}
+
+	4.14 Welche Anwendung wären für Ärzte in einer landesweiten eHealth Infrastruktur relevant? Nennen Sie mindestens 3.
+	{
+		z.B. eAkte, eArztbrief, eRezept
+	}
+
+	4.15 Nennen Sie 4 Eigenschaften von mobiler Kartenterminals?
+	{
+		- Zwischenspeicher zur Speicherung mobil erfasster Daten
+		- Daten werden für HBA des Arztes verschlüsselt gespeichert
+		- (viel zu kleiner) Bildschirm gemäß Spec
+		- Kleiner integrierter Anwendungskonnektor mit Fachlogik
+		-> Es wurden bereits Konzepte eingereicht für die Nutzung von Tablets als Eingabe-/Ausgabegeräte inkl. Mobilfunkverbindung
+	}
+}
+
+
+
+
+{
+##################################
+###-------------U5-------------###
+##################################
+
+	5.1 Welcher Standard für das Bildformat wird in der Radiologie in den USA verwendet?
+	{
+		DICOM
+	}
+
+	5.2 Worin besteht der Unterschied zwischen Identifikation und Authentifikation?
+	{
+		Identifikation = Behauptung einer Identität
+		Authentifikation = Nachweis der Identität.
+	}
+
+	5.3 Nennen Sie 3 Arten des Identifikationsmanagement?
+	{
+		- Wissen
+		- Besitz
+		- körperliches Merkmal
+	}
+
+	5.4 Nennen Sie 3 technische Protokolle, die für den Basisdatentransport genutzt werden?
+	{
+		- SMTP
+		- HTTP 1.1
+		- SOAP 1.2
+	}
+
+	5.5 In Deutschland wird ein physikalischer Konnektor in Praxen und Krankenhäusern eingesetzt. Wie sieht dieser Ansatz in den USA aus?
+	{
+		“Connect” Software zur sicheren Verbindung zum Nationwide Health Information Network (Open Source)
+	}
+
+	5.6 Zählen Sie 3 Ziele der USA eHealth Infrastruktur auf? (Programm Meaningful Use)
+	{
+		- Improve Quality, Safety, Efficiency
+		- Engage Patients & Families
+		- Improve Care Coordination
+		- Improve Public & Population Health
+		- Ensure Privacy & Security for Personal Health Information
+	}
+
+	5.7 Was waren die Meilensteine in den USA für die Einführung von eHealth? (Programm Meaningful Use)
+	{
+		Stage 1: Data Capture and Sharing
+		Stage 2: Advance clinical processes
+		Stage 3: Improved Outcomes
+	}
+
+	5.8 Wie ist die Federal Health Architecture (USA) aufgebaut? Beschreiben Sie dies ganz kurz.
+	{
+		Es gibt das NwHIN (Nationwide Health Information Network) welches Framework Standards, Policies und Specs für den Austausch von Gesundheitsdaten liefert. Mittels “Connect” Software kann auf dieses Network zugegriffen werden.
+	}
+
+	5.9 Was sind die 4 Kernaspekte von Identity Management?
+	{
+		- Identifizierung von Akteuren im Gesundheitswesen
+		- Authentisierung der Akteure im Gesundheitswesen
+		- Autorisierung (Attribute, Rollen, Rechte, Privilegien)
+		- Verwaltung der elektronischen Identitäten (Lifecycle)
+	}
+
+	5.10 Warum ist der Diebstahl der Identität eines Arztes besonders gefährlich? Nennen Sie 2 Punkte.
+	{
+		Bruch der Vertraulichkeit aller Patientendaten des Arztes und ggf. Manipulation von Patientendaten -> Gefahr für die Gesundheit.
+	}
+
+	5.11 Definieren Sie den Begriff Identity Management im eHealth?
+	{
+		Repräsentation (Identität) einer physischen Person in der elektronischen Welt einer E-Health Anwendung.
+	}
+
+	5.12 Nennen Sie jeweils einen Vor- und einen Nachteil der Authentifizierung mit biometrischen Merkmalen?
+	{
+		Vorteil: sehr starke Bindung an Person
+		Nachteil: datenschutzrechtliche Aspekte
+	}
+
+	5.13 Vergleichen Sie die deutsche und die amerikanische eHealth Infrastruktur anhand von 3 Aspekten?
+	{
+		Deutsche Telematik-Infrastruktur:
+			- Es wird eine physische Infrastruktur gebaut
+			- Wirtschaftliche Anreize für Ärzte / Krankenhäuser usw. sind überschaubar, gerade mal kostendeckend
+			- Hardware Konnektor
+		US E-Health Infrastruktur:
+			- Keine physische Infrastruktur → Markt soll selbst machen
+			- Software-Konnektor
+			- So starke wirtschaftliche Anreize, dass Ärzte und IT-Health-Industrie motiviert werden
+	}
+}
+
+
+
+
+{
+##################################
+###-------------U6-------------###
+##################################
+
+	6.1 Warum ist die biometrische Authentifizierung nicht-deterministisch?
+	{
+		Durch verschiedene Parameter ist eine eindeutige Ja-Nein-Bestimmung der Identifikation nicht gegeben. Beispielsweise kann eine kleine Schnittverletzung am Finger oder auch Schweiß bei einem Fingerabdruck-Scanner den biometrischen Wert verzerren.
+	}
+
+	6.2 Erklären Sie kurz die 2-Faktor Authentifizierung.
+	{
+		Zusätzlich zu dem Username und Passwort wird noch ein weiteres Geheimnis benötigt. Dies kann ein Einmal Passwort per SMS oder ein Security Token auf einem zusätzlichen (unabhängigen) Gerät sein.
+	}
+
+	6.3 Nennen Sie zwei Nachteile Biometrischer Authentifizierung.
+	{
+		- Zertifizierung der Sicherheit schwierig
+		- Authentifizierung ist nicht deterministisch => problematisch
+		- Widerstandsfähigkeit gegen Angriffe ist eingeschränkt
+	}
+
+	6.4 Wofür ist der OCSP-Responder zuständig?
+	{
+		Der OCSP Responder ist für die Online Prüfung von Zertifikaten zuständig. Dabei wird die Zuordnung eines öffentlichen Schlüssels zu einer Person bestätigt und somit die Gültigkeit der Zertifikate bestätigt.
+	}
+
+	6.5 Erklären Sie das Rechtemanagement des elektronischen Patientendossier in der Schweiz?
+	{
+		- Zugriff über 2-Faktor Authentifizierung
+		  -> Muss Sicherheitsniveau mit „Hohem Vertrauen“ (Assurance Level 3 nach ISO/IEC29115:2013) erfüllen
+
+		- Rechtemanagement nach einem (modifizierten) Multilevel-Security Zugriffsmodell -> Konzept aus dem militärischen Bereich
+			* Patient*in vergibt Vertraulichkeitsstufe an Dokumente (Classification)
+			* Patient*in vergibt Zugriffsstufe an „Gesundheitsfachpersonen“ (Clearance)
+			* Arzt kann auf Dokumente zugreifen, die eine niedrigere oder gleiche Vertraulichkeitsstufe haben, als seine Zugriffsstufe (Classification <= Clearance)
+			* Notfallzugriff ohne explizite Rechtevergabe, kann aber allg. abgeschaltet werden
+	}
+
+	6.6 Wie kann das RMS einer eHealth Anwendung mit Multi-Level-Security Konzepten implementiert werden?
+	{
+		- Wie in der Schweiz -> Classification < Clearance
+	}
+
+	6.7 Erklären Sie wie eine Multi-Level-Security in einer eHealth Anwendung funktionieren kann?
+	{
+		- Wie in der Schweiz -> Classification < Clearance
+	}
+
+	6.8 Nennen Sie die Merkmale und Aufgaben eines Identity Providers?
+	{
+		- Ein spezialisierter Dienst, der Authentifizierungen durchführt und diese gegenüber „Service-Provider“ bestätigt
+		- Mehrere Methoden und Sicherheitsniveaus möglich
+		- Nach erfolgter Authentifizierung bestätigt der Identity Provider die Identität mit Hilfe einer Assertion (z.B. SAML)
+		- Single Sign On Konzepte realisierbar
+	}
+
+	6.9 Was ist die Hauptaufgabe des Zertifikats X.509 im Kontext der Authentifizierung?
+	{
+		Bestätigt Zuordnung eines öffentlichen Schlüssels zu einer Person
+	}
+
+	6.10 Von welchen 2 Faktoren hängt die Sicherheit des Identity Management, in Bezug auf Nachweis und elektronische Identität, ab?
+	{
+		- Wie Sicher der Nachweis erbracht wird
+		  -> Gesamtsicherheit des Verfahrens
+			* Bsp. Username und Passwort: Angriff mit keylogger: schwächer
+			* 2 unabhängige Faktoren kombiniert: stärker
+		- Wie stark die elektronische Identität an die Person gebunden ist
+	}
+
+	6.11 Welche grundsätzlichen Methoden gibt es zur Aktivierung einer Chipkarte?
+	{
+		- üblicherweise mit PIN
+		  -> Ergibt dann: Wissen (PIN) und Besitz (Chipkarte)
+		- Bei der eGK: Aktivierung nach kryptographischer (C2C) Authentifizierung eines HBA / SMC, allein oder ggf. zusätzlich zur eGK-PIN
+		- Biometrische Aktivierung einer Chipkarte dürfte in der Zukunft ebenfalls eingesetzt werden
+	}
+
+	6.12 Warum sollt bei der 2-Faktor Authentifizierung der „zweite Faktor“ über einen unabhängigen Kanal kommen?
+	{
+		Ein zweiter Kanal erschwert es dem Angreifer den zweiten Faktor abzufangen
+	}
+
+	6.13 Warum sollten Passwörter „gesalzt“ werden?
+	{
+		Erschwert das Erraten von Passwörtern anhand des Hashs.
+	}
+
+	6.14 Was ist der Vorteil einer Authentifizierung über das Challenge-Response-Verfahren gegenüber einer Authentifizierung über Username/Passwort?
+	{
+		Das Passwort muss nicht im Klartext übertragen werden und kann so nicht abgegriffen werden.
+	}
+
+	6.15 In welchen grundlegenden Schritten erfolgt eine Authentifizierung über ein Challenge-Response-Verfahren?
+	{
+		1. Challenge-Response Verfahren: Server schickt „Challenge“ (Zufallszahl) an Client
+		2. Erstellung einer elektronischen Signatur auf die Challenge mit Hilfe eines auf der Chipkarte gespeicherten kryptographischen privaten Schlüssels ! Ergebnis ist die „Response“
+		3. Der Schlüssel selbst wird NICHT übertragen. Damit wird nur gerechnet ! das Ergebnis (Response) produziert und zum Server übertragen. Ein Angreifer kann aus der Response den Schlüssel nicht berechnen.
+		4. Das Ergebnis wird serverseitig mit Hilfe eines elektronischen Zertifikats (X.509-Standard) überprüft.
+	}
+
+	6.16 Welchen grundsätzlichen Nutzen hat ein Zertifikat?
+	{
+		bestätigt Zuordnung eines öffentlichen Schlüssels zu einer Person
+
+		Zusätziche Info:
+			* Zertifikate können auch ohne Chipkarte eingesetzt werden
+			* Online Prüfung des Zertifikats auf Sperrung
+			* Kann auch Rolle der Person enthalten (z.B. „Ärztin/Arzt“)
+	}
+
+	6.17 Welche Schwierigkeit gibt es bei der Authentifizierung über biometrische Merkmale im Vergleich zu wissensbasierten?
+	{
+		Ist ein ein probabilistisches Verfahren -> False Accept Rate und False Reject Rate müssen balanciert werden.
+	}
+
+	6.18 Welche Methoden gibt es zur Authentifizierung gegenüber einer Chipkarte?
+	{
+		- PIN -> Wissen (PIN) und Besitz (Chipkarte)
+		- kryptographische Authentifizierung -> C2C
+		- Biometrische Aktivierung (gibt es noch nicht, aber in Zukunft)
+	}
+}
+
+
+
+
+{
+##################################
+###-------------U7-------------###
+##################################
+
+	7.1 Nennen Sie je einen Vor- und Nachteil von kryptographisch unterstützten Zugriffskontrollen?
+	{
+		Vorteile:
+			+ Zugriffskontrolle in Software kann grundsätzlich gehackt werden (Softwarefehler ->Schwachstelle)
+			  -> Kryptoverfahren (Mathematik) zu hacken ist ein ganz anderes Kaliber
+			+ Sehr wirksamer zusätzlicher Schutz gegen Angriffe mit Umgehen der Zugriffskontrolle
+			  -> Mögliche Angriffe sind i.d.R. aufwändiger
+		Nachteile:
+			- Kompliziertes Rechtemanagement:
+			  -> Zusätzlich zur Software-Entscheidung der Zugriffskontrolle: viele Krypto-Operationen
+			  -> Rechteverwaltung braucht viel mehr, als nur Anpassung des Eintrags in der ACL
+				* Schlüssel gewinnen (entschlüsseln), für neuen Berechtigten bereitstellen
+			- Kompliziertes Schlüsselmanagement:
+			  -> Wenn der Schlüssel weg ist, sind die Daten unzugänglich
+			-> erhöhte Komplexität, Schlüsselmanagement
+	}
+
+	7.2 Wofür braucht man ein Datenerhalt-Konzept?
+	{
+		Falls die Karte verloren geht, sollte es eine Möglichkeit geben die Daten wieder herzustellen.
+	}
+
+	7.3 Erklären Sie das Grundkonzept der Hybridverschlüsselung der kryptographisch unterstützten Zugriffskontrolle?
+	{
+		Falls die Karte verloren geht, sollte es eine Möglichkeit geben die Daten wieder herzustellen.
+	}
+
+	7.4 Nennen Sie 4 Anwendung von eAdministration?
+	{
+		- Nachweis der Berechtigung für medizinische Leistungen (!gültiger Versicherungsnachweis)
+		- Verwaltung der Stammdaten der Krankenversicherung
+		- Meldung Arbeitsunfähigkeit
+		- eRezept
+
+	}
+
+	7.5 Wie funktioniert der Versicherungsnachweis mit der eGK eines Patienten in der Arztpraxis?
+	{
+		- Offline über Anwendung „Versichertenstammdatenmanagement“ (VSDM)
+			-> Stammdaten sind im Chip gespeichert
+			-> Beim Arztbesuch wird die Karte mit ihren Daten ausgelesen
+
+		- Online über Update Flag Service
+			-> Online Verbindung wird von der Arztpraxis zur TI aufgebaut
+			-> Es wird nachgefragt, ob Aktualisierungen für diese eGK verfügbar sind
+				* Fall nein:
+				  -> elektronische Quittung wird vom UFS ausgestellt, Versichertenstammdaten (VSD) aus eGK + Quittung werden für die Abrechnung verwendet
+				* Falls ja:
+				  -> eine Online-Verbindung zum Versichertenstammdaten-Dienst wird aufgebaut. Der Datensatz auf der Chipkarte wird online (kryptographisch gesichert) aktualisiert. Elektronische Quittung wird vom VSDM ausgestellt -> Abrechnung
+	}
+
+	7.6 Wie läuft die Aktualisierung der Daten der eGK online ab, wenn ein Patient z.B. seine Adresse ändern möchte?
+	{
+		- Vorher waren keine Datenänderungen oder effektive Sperrungen möglich -> Neuausstellung nötig
+		- Bei Online VSDM mit der eGK:
+			* Versicherte meldet neue Anschrift an Krankenkasse
+			* Krankenkasse pflegt geänderte Daten in VSDM-Datenbank und setzt Update-Flag in UFS
+			* Bei nächstem Kontakt der eGK mit der Telematik-Infrastruktur: Flag wird ausgewertet,
+			* Nur falls Update-Flag gesetzt Online-Aktualisierung über VSDM-Dienst
+	}
+
+	7.7 Was ist der Vorteil beim asynchronen Ansatz der Prüfung des Versichertenstatus innerhalb des deutschen Versichertenstammdatenmanagement-Systems? (VSDM-System)
+	{
+		keine direkte Kommunikation zwischen Praxis und Krankenkasse möglich
+		  -> Krankenkasse kann nicht in Echtzeit nachvollziehen von welcher Arztpraxis die Nachfrage kommt
+		  	-> Krankenkasse soll keinen Einfluss auf die Behandlung haben
+			-> Bewahrung der Terapiefreiheit
+	}
+
+	7.8 Wie wird ein Smartphone für die Schlüsselspeicherung in eHealth eingesetzt?
+	{
+		- Zertifikate können auch ohne Chipkarte eingesetzt werden
+		  -> Smartphone als Schlüsselträger -> privater Schlüssel im Speicher des Geräts
+		  -> Smartphone hat selbst auch PIN
+	}
+
+	7.9 Es gibt verschiedene Möglichkeiten für eine kryptographisch unterstützte Zugriffskontrolle. Erklären Sie in 3 Sätzen, den Unterschied zwischen Objekt Ticket und Service Ticket, im sogenannten „Ticket-Konzept“?
+	{
+		- Das Objekt-Ticket:
+		  -> ist eine mit dem Informationsobjekt assoziierte Access Control List und enthält alle Zugriffsberechtigungen für das Info-Objekt, die erlaubten Zugriffe und die Kryptoschlüssel.
+		- Das Service-Ticket:
+		  -> ist ein Template einer ACL für eine InformationsobjektKlasse eines Patienten mit allen Zugriffsberechtigten, die erlaubten Zugriffe und die Kryptoschlüssel.
+		  -> Bei jedem neuen Informationsobjekt dieser Klasse werden Objekt-Tickets nach dem Muster des Service-Tickets erstellt.
+	}
+
+	7.10 Nennen Sie 3 Unterschiede zwischen der Krankenversicherungskarte (KVK) und der elektronischen Gesundheitskarte (eGK)?
+	{
+		- Geschützter Speicher
+			1. KVK: Speicher ungeschützt
+			2. eGK: Speicher geschützt
+		- Sperrung bei Verlust
+			1. KVK: Bei Verlust keine Sperrung möglich
+			2. eGK: Sperrung möglich
+		- Bei Datenänderung:
+			1. KVK: Neuausgabe, keine Datenänderung möglich
+			2. eGK: Onlineaktualisierung der Stammdaten
+	}
+
+	7.11 Existiert eine direkte Verbindung zwischen Praxis-IT zur VSDM? Antwort kurz begründen.
+	{
+		 Nein, es geschieht ein Medienbruch (durch einen Intermediär). Dadurch kann die Identität des Arztes vorerst anonymisiert werden (Die Einsicht kann erst am Ende des Quartals eingesehen werden).
+	}
+
+	7.12 Wie funktioniert der Update Flag Service beim Versicherungsnachweis mit der eGK?
+	{
+		-> Online Verbindung wird von der Arztpraxis zur TI aufgebaut
+			-> Es wird nachgefragt, ob Aktualisierungen für diese eGK verfügbar sind
+				* Fall nein:
+				  -> elektronische Quittung wird vom UFS ausgestellt, Versichertenstammdaten (VSD) aus eGK + Quittung werden für die Abrechnung verwendet
+				* Falls ja:
+				  -> eine Online-Verbindung zum Versichertenstammdaten-Dienst wird aufgebaut. Der Datensatz auf der Chipkarte wird online (kryptographisch gesichert) aktualisiert. Elektronische Quittung wird vom VSDM ausgestellt -> Abrechnung
+
+	}
+
+	7.13 Erklären Sie den Prozess der Kommunikation des VSDM.
+	{
+		- PVS startet den Prozess mit einer SOAP-Nachricht an den Konnektor
+		- Die Zertifikate der eGK werden (online) auf Gültigkeit geprüft
+		- Das VSDM-Modul des Konnektors baut eine TLS-Verbindung zum Intermediär (Broker) auf, sendet Anfrage (Parameter: eGK-, SMC-Daten)
+		- Intermediär anonymisiert Arzt-Identität, sendet Anfrage an UFS
+		- Intermediär meldet Ergebnis an Konnektor inkl. Quittung zurück. Falls keine Aktualisierungen vorliegen
+		- Konnektor liest VSD von der eGK (nach C2C-Authentisierung)
+		  -> VSD und Quittung an PVS zur Abrechnung
+		- Ende des Prozesses
+	}
+
+	7.14 Nennen Sie 2 Vorteile der eGK gegenüber der KVK?
+	{
+		- Speicher geschützt -> erst nach Autorisierung auslesbar
+		- Sperrung bei Verlust möglich
+		- Online-Aktualisierung der Stammdaten möglich
+	}
+}
+
+
+
+
+{
+##################################
+###-------------U8-------------###
+##################################
+
+	8.1 Welchen Hautnachteil hätte ein verpflichtendes mHealth im Bezug auf das eRezept?
+	{
+		Nicht jeder will ein Smartphone oder kann damit umgehen, mHealth muss auf freiwilliger Basis einsetzbar sein. Es muss eine Alternative zum technischen Weg geben
+	}
+
+	8.2 Nennen Sie je 2 medizinische und administrative Vorteile der elektronischen Krankenverordnung?
+	{
+		- Medizinische:
+			* Fehler vermeiden, die durch schwer leserliche Schrift entstehen können
+			* Automatischer Abgleich mit anderen verordneten Medikamenten
+			* Fehler durch Medienbruch vermeiden
+
+		- Administrative:
+			* Die Verarbeitung von handschriftlichen Rezepten ist teuer!
+			  -> Kosteneinsparung durch elektronisches Rezept
+			* Eine flächendeckende elektronische Verordnung bringt Kontrolle und Transparenz in den Prozess
+			* Durch eRezept können z.B. Plausibilitätsprüfungen durchgeführt werden
+	}
+
+	8.3 Nennen Sie 3 Herausforderungen die es bei der offline elektronischen Verordnung gibt?
+	{
+		- eRezepte auf einem offline-Datenträger brauchen extra Sicherheitsmaßnahmen
+		- Wie stellt man sicher, dass das eRezept authentisch ist, tatsächlich vom Arzt ausgestellt wurde und nicht verändert wurde?
+		  -> Da kann kein Server für Zugriffsschutz sorgen!
+		  -> Kryptographische Maßnahmen: Elektronische Signatur des Arztes und (nach Dispensierung) des Apothekers
+		  -> Aus Textdatei wird Urkunde -> Jedoch komplizierter als eine Online-Lösung
+		- Wie stellt man sicher, dass man ein eRezept nicht kopiert und zweimal einlöst?
+		  -> Online-Prüfung zur Entdeckung von Duplikaten erforderlich
+	}
+
+	8.4 Was ist die Alternative zum digitalen eRezept Token der geplanten eRezept Anwendung?
+	{
+		2D Barcode, der ausgedruckt werden kann
+	}
+
+	8.5 Nennen Sie 3 Vorteile einer elektronischen Rezeptverordnung gegenüber einer klassischen auf Papier?
+	{
+		- Authentizität, Integrität und Verbindlichkeit sind über die Fachdienste gewährleistet
+		- Offline Rezept braucht zusätzliche Sicherheitsmaßnahmen
+		- Fehler vermeiden, die durch schlechte Handschrift entstehen
+		- Kosteneinsparung
+		- Kontrolle und Transparez durch flächendeckende elektronische Verordnung
+		- Mögichkeit Plausibilitätsprüfungen durchzuführen
+	}
+
+	8.6 Welche Unterschiede ergeben sich bei einer eRezept-Anwendung in Bezug auf Authentizität, Identität und Verbindlichkeit des Datenschutzes zwischen einer offline und einer online-Lösung?
+	{
+		Online ist sind diese Anforderungen durch den Zugangsschutz des Fachdienstes gewährleistet
+		  -> Keine Änderungen nach Ausstellung möglich
+		  -> Auf elektronische Signatur kann verzichtet werden
+	}
+
+	8.7 Wieso nutzt man nicht die elektronischen Verordnungsdaten beim eRezept für eine Interaktionsprüfung von verschiedenen Medikamenten?
+	{
+		War aufgrund von Datenschutzrechten verboten -> Dummes Verbot
+		-> Keine Automatische Verküpfung mit AMTS
+	}
+
+	8.8 Warum muss dem eRezept bei der Ausstellung eine elektronische Signatur beigefügt werden?
+	{
+		-> Sonst könnte das Rezept abgeändert/ manipuliert werden
+	}
+}
+
+
+
+
+{
+##################################
+###-------------U9-------------###
+##################################
+
+	9.1 Welche 2 unterschiedlichen Varianten gibt es, die Terminvergabe bei Ärzten online anzubieten?
+	{
+		- Als Web-Präsenz selbst anbieten (Anbindung ans Praxisverwaltungs System PVS)
+		- Kommerzielles Web-Portal
+	}
+
+	9.2 Nennen Sie 5 Unterschiede Inhalte des Notfalldatensatzes?
+	{
+		- Persönliche Daten des Patienten
+		- Notfallrelevante Diagnosen
+		- Notfallrelevante Medikation
+		- Notfallrelevante Allergien/Unverträglichkeiten
+		- Besondere Hinweise
+		- Kontaktinformationen (Ärzte/Institutionen)
+		- Letzte Aktualisierung
+	}
+
+	9.3 Welche 3 Szenarien für das Notfalldatenmanagement gibt es?
+	{
+		- Preklinische Patientenversorgung durch Rettungsdienst
+		- Ungeplante Aufnahme eines Patienten in der Notaufnahme eines Krankenhauses
+		- Ungeplante Notfallversorgung ambulant
+	}
+
+	9.4 Muss der Arzt einen Notfalldatensatz im Notfall auslesen? Begründen Sie Ihre Aussage.
+	{
+		 Hängt von der Situation ab. Zuerst müssen die Vitalfunktionen des Patienten stabilisiert werden. Wenn der Arzt dann Zeit dafür hat, sollte er den Datensatz auslesen
+	}
+
+	9.5 Was ist der Unterschied zwischen Informationsmodell und Datenmodell?
+	{
+		 Informationsmodell ist ein abstraktes Konzept/Beschreibung. Das Datenmodell umfasst die Implementierung eines Konzeptes z.B. XML Beschreibung
+	}
+
+	9.6 Was ist das Hauptproblem bei der elektronischen Patientenquittung?
+	{
+		Die Patientenquittung enthält medizinische Daten mit hohem Schutzbedarf, daher gibt es hohe Anforderung für die Abwehr gegen Identitätsdiebstahl
+	}
+
+	9.7 Nennen Sie einen Vor- und Nachteil eines Notfalldatensatzes auf Papier gegenüber einem elektronischen.
+	{
+		+ Sehr einfache Handhabung im Notfall
+		- Geringe Kapazität, falls Scheckkartenformat
+		- Schwierige Pflege, wenn mehrere Ärzte beteiligt sind (manuelle Datenübertragung, Abtippen)
+		- Schwierige Handhabung bei mehreren Versionen
+	}
+
+	9.8 Nennen Sie jeweils einen Nachteil vom selbstbetriebenen Onlineterminvergabeservice und der Alternative (die Nutzung kommerzieller Web-Portale)?
+	{
+		Nachteil selbstbetrieben:
+			-> Datenbestand muss geschützt werden, über Terminservice darf kein Zugriff auf das PVS entstehen
+
+		Nachteil kommerziell:
+			-> Schweigepflicht und Datenschutz müssen von dem Betreiber eingehalten werden, denn Betreiber weiß welcher Patient bei welchem Arzt einen Termin hat
+	}
+
+	9.9 Warum werden Informationen beim Notfalldatensatz im Klartext und nicht über eine Codesprache abgebildet? (bzw. warum hat Klartext Vorrang)
+	{
+		Beim Code kann man sich leichter vertippen, beim Klartext ist dies nicht so einfach der Fall (Beim Code kann so leicht eine falsche Diagnose im NFD stehen)
+	}
+
+	9.10 Warum wird der Notfalldatensatz auch bei einer ungültigen Signatur immer ausgegeben?
+	{
+		Damit dieser für die Behandlung im Notfall (soll schnell, effizient und datenbasiert erfolgen) trotz ungültiger Signatur genutzt werden kann
+		  -> Arzt kann dann selbst entscheiden was er mit der Information anfängt
+	}
+
+	9.7 Nennen Sie einen Vor- und Nachteil eines elektronischen Notfalldatensatzes.
+	{
+		+ Viele Möglichkeiten der Speicherung
+		  -> im Chip der elektronischen Gesundheitskarte (eGK)
+		  -> Offline auf einem anderen Datenträger (z.B. USB-Stick)
+		  -> Als App auf dem Smartphone
+		+ Smartphone hat man immer dabei
+		- Im Notfall langsamer als auf Papier
+	}
+
+}
+
+
+
+
+{
+##################################
+###------------U10-------------###
+##################################
+
+	10.1 Nennen Sie 4 grundlegende Eigenschaften des Notfalldatensatzes auf der eGK.
+	{
+		- Implementiert ein komplexes Rechtsmanagement-System, welches größtenteils von den Chipkarten selbst (eGK, HBA) durchgesetzt wird
+		- Der Datensatz ist auf die gesamte Bandbreite von Notfällen ausgerichtet und nicht nur auf Anforderungen des Rettungsdienstes
+		- Nutzbar zur Information des Arztes auch außerhalb von Notfällen, mit Einverständnis des Patienten !„Kleine Patientenakte“
+		- Hoher technischer Datenschutz
+		- Standardisiert im Rahmen der Telematik-Infrastruktur
+	}
+
+	10.2 Nennen Sie je 2 Vor- und Nachteile des Online-Notfalldatensatzes.
+	{
+		!!!Nicht sicher!!!
+		+ Universeller Zugriff auch für Patienten ohne Spezial-Hardware
+		+ Zum Teil höhere Verfügbarkeit als offline
+		- Datenschutz rechtlich aber nicht technisch umsetzbar
+		- Ein zuverlässiger Identifier des Patienten ist erforderlich
+	}
+
+	10.3 Nennen Sie die beiden Ausführungsmöglichkeiten in welcher der Medikationsplan existiert?
+	{
+		- Bundeseinheitlicher Medikationsplan auf Papier (BMP) Mit 2D-Barcode zur elektronischen Datenverarbeitung
+		- Elektronischer Medikationsplan auf der eGK (eMP)
+	}
+
+	10.5 Nennen Sie 3 Ziele der elektronischen Patientenakte.
+	{
+		- Alle in der Behandlung einbezogene Ärzte und Gesundheitsberufe mit Informationen zu versorgen und so ihre Zusammenarbeit stärken
+		- Patient Empowerment: dem Patienten die Kontrolle über seine Gesundheitsdaten geben
+		- In einer Behandlungssituation (geplant oder ungeplant) alle relevanten Informationen verfügbar machen
+	}
+
+	10.7 Erläutern Sie den Hauptunterscheid zwischen eMP und AMTS.
+	{
+		- Datensatz von AMTS unterscheidet sich geringfügig vom Datensatz des Medikationsplans
+		  -> Unterschiedliche Zielsetzung
+		  -> Medikationsplan soll den Patienten informieren, die AMTS soll Arzt und Apotheker informieren
+
+		- eMP hat Diagnosen/ Einnahmegrund mit im Datensatz, AMTS nicht
+		- AMTS hat Laborwerte, z.B. Leber- und Nierenfunktionen mit im Datensatz
+		- AMTS beinhaltet auch Informationen zu Allergien und Unverträglichkeiten
+	}
+
+	10.8 Warum ist es sinnvoll den Medikationsplan auf Papier bereitzustellen?
+	{
+		Im Fokus der Anwendung steht die Praktikabilität für den Patienten
+		-> Alte Leute finden Papier praktischer
+	}
+
+	10.9 Wann muss der Medikationsplan aktualisiert werden?
+	{
+		- Wenn neue Medikamente hinzukommen
+		- Apotheker tauscht Medikament (inhaltsgleich) aus wegen Rabattvertrag
+		- Medikament wird abgesetzt
+	}
+
+	10.10 Wie kann der Medikationsplan die AMTS verbessern?
+	{
+		- Patient ist informiert über eingenommene Medikamente
+		- Informationen zur richtigen Dosierung, Applikation
+		- Information zur Wirkung, Nebenwirkungen, Kontraindikationen der Medikamente
+		- Informationen zum Einnahmegrund
+	}
+
+	10.11 Was versteht man unter der „Vertreter-Regelung“ auf der eGK im Kontext der Anwendung eMP und AMTS?
+	{
+		extra Vertreter Pin der nur die eMP/AMTS Anwendung nutzen kann. Dadurch können z.B. auch Angehörige die Anwendung nutzen
+	}
+
+	10.12 Geben Sie 3 Szenarien an, in denen eine elektronische Patientenakte die Behandlung unterstützen oder verbessern könnte.
+	{
+		- Behandlung bei ungeplanten Einweisungen
+		- Vorbereitung von Operationen
+		- Konsil, Zweitmeinung, Wechsel des Arztes
+		- Kooperationsbehandlung mehrerer Ärzte
+		- Patientensicherheit
+	}
+
+	10.13 Der Medikationsplan (auf Papier) eignet sich hervorragend für eine mHealth Anwendung. Nennen Sie 3 zusätzliche Funktionen, die dieser anbieten sollte?
+	{
+		- Barrierefreiheit herstellen! z. B. Inhalte vorlesen bei Patienten mit Sehbehinderung
+		- Erinnerungsfunktionen für die Einnahme der Medikamente
+		- Information zur verordneten Dosierung und Applikation
+	}
+}
+
+
+
+
+{
+##################################
+###------------U11-------------###
+##################################
+
+	11.1 Was ist die Hauptfunktion der ePA?
+	{
+		Die Hauptfunktion ist die einrichtungsübergreifende medizinische Dokumentation des Patienten. Beinhaltet unter anderem: Dokumente und Phänomendokumentation.
+	}
+
+	11.2 Erläutern Sie die Ziele einer einrichtungsübergreifenden ePatientenakte.
+	{
+		- Die Zusammenarbeit verstärken
+		- Patient Empowerment und Verfügbarkeit der Informationen.
+	}
+
+	11.3 Nennen Sie 4 Klassifikationsarten der Elektronischen Patientenakte.
+	{
+		- Elektronische Fallakte
+		- Einrichtungsübergreifende elektronische Patientenakte
+		- Elektronische Gesundheitsakte
+		- Registerakten
+	}
+
+	11.4 Erklären Sie den Unterschied zwischen Aktenführung und Aktenmoderation im Kontext der ePatientenakte.
+	{
+		- Aktenführung -> Wer darf hineinschreiben
+			* arztgeführt vs. patientengeführt
+		- Aktenmoderation -> Wer kontrolliert, was hineingeschrieben wird
+			* arztmoderiert vs. patientenmoderiert
+	}
+
+	11.5 Warum ist das „Alles-oder-Nichts-Prinzip“ ein wichtiges Merkmal der EFA2.0?
+	{
+		Gewährleistung, dass aus ärztlicher Sicht die Akte vollständig ist.
+	}
+
+	11.6 Warum ist der Master Patient Index (MPI) eine Voraussetzung für eine effektive eEPA?
+	{
+		- In jeder iEPA hat der Patient eine eigene ID, was eine Suche in einer zentralen eEPA erschwert
+		- MPI ermöglicht Mapping eines Patienten in einer anderen iEPA
+	}
+
+	11.7 Nennen und erklären Sie einen zentralen Nachteil einer patientenmoderierten gegenüber einer arztmoderierten elektronischen Fallakte.
+	{
+		- Bei einer Arztmoderierten Fallakte kann der Patient keine Daten ausschließen.
+		  -> Die Vollständigkeit der Fallakte kann so gewährleistet werden, was für eine optimale Behandlung Notwendig ist.
+		- Bei einer Patientenmoderierten Fallakte kann ein behandelnder Arzt hingegen nicht sicher sein, dass alle relevanten Daten/Dokumente enthalten sind.
+	}
+
+	11.8 Welche Rollen existieren in der EFA? Beschreiben Sie zwei kurz.
+	{
+		- Fallaktenmanager: Admin der Akte, kann alles
+		- Patient: Einwilligung, betroffene Person
+		- EFA-Teilnehmer
+		- EFA-Peer (EFA-Provider)
+	}
+}
+
+
+
+
+{
+##################################
+###------------U12-------------###
+##################################
+
+	12.1 Erklären Sie den Nutzen des MPI bei der verteilten einrichtungsübergreifenden ePA.
+	{
+		Innerhalb der zentralen Registry kann mit Hilfe des MPI nach allen zugehörigen Dokumenten gesucht werden.
+	}
+
+	12.2 Nennen Sie 4 Nicht-funktionale Aspekte der Einrichtungsübergreifenden elektronischen Patientenakte?
+	{
+		- Unveränderbarkeit
+		- Medizinische Dokumentation muss nachvollziehbar sein
+		- Eine Löschung von Informationen ist nicht zulässig
+		- Veränderungen sind nur dann zulässig, wenn der ursprüngliche Inhalt erkennbar bleibt
+	}
+
+	12.3 Nennen Sie 5 Funktionen von eEPA.
+	{
+		- Hauptfunktion: einrichtungsübergreifende medizinische Dokumentation der Behandlung des Patienten
+		- Verteilung der Administration der ePA: Ärzte und Patienten haben Zugriff
+		- Benachrichtigungen, Wiedervorlage-Funktionen -> Benachrichtigung bei Überschreiten von Laborwerten
+		- AMTS
+		- Epidemiologie
+		- Kommunikation zwischen Ärzten
+		- Koordination von Terminen
+		- Unterstützung der Forschung
+	}
+
+	12.4 Nennen Sie einen Vor- und Nachteil einer zentralen, redaktionellen moderierten einrichtungsübergreifenden Akte.
+	{
+		Vorteile:
+			- Syntaktische und semantische Interoperabilität am einfachsten sicherzustellen
+		Nachteile:
+			- Inhalte müssen manuell aufbereitet und eingestellt werden
+			- Redaktionielle Arbeit, “Bürokratischer” Aufwand
+	}
+
+	12.5 Nennen und erklären Sie einen Vor- und Nachteil, wenn zur Einführung einer eEPA generell PDF-Dateien als Dokument erlaubt sind.
+	{
+		Vorteil:
+			- PDFs sind sehr gängig und können sofort leicht genutzt werden.
+		Nachteil:
+			- PDFs geben keine klare Struktur vor, was die Suche in den Dokumenten erschwert. Sind PDFs bereits in der eEPA ist einer Konvertierung in ein einheitliches Format mit entsprechendem Mehraufwand verbunden.
+	}
+}
+
+
+
+
+{
+##################################
+###------------U13-------------###
+##################################
+
+	13.1 Erklären Sie kurz inwieweit sich die Inhalte einer (e)EPA und einer EGA voneinander unterscheiden.
+	{
+		- (e)EPA:
+		  -> Arztmoderiert und beinhaltet hochstrukturierte, zuverlässige und fachliche Inhalte.
+
+		- EGA:
+		  ->Patientenmoderiert und wird von Patient gepflegt. Beinhaltet vom Patienten bereitgestellte Informationen. (siehe u.a. 5.3, Folie 57)
+	}
+
+	13.2 Nennen Sie drei mögliche Nachteile der ePA.
+	{
+		- Es entstehen neue Risiken, da man z.B. weniger manuell überprüft.
+		- Technische Probleme, z.B. Synchronisationsprobleme zwischen Patientenakten
+		- Weniger Kommunikation im Gesundheitswesen
+		- Zu viel Abhängigkeit von der IT
+		- Frustration über schlecht bedienbare IT
+	}
+
+	13.3 Nennen Sie 5 sinnvolle Merkmale der Elektronischen Gesundheitsakte.
+	{
+		- Leichter Zugang über Client-Anwendung, App oder Web-Anwendung
+		- Zugriffskontrolle sicher vs. leicht durchführbar
+		- Verständliche und intuitive Bedienung
+		- Barrierefreiheit
+		- Notfallzugriff über spezielle Mechanismen
+	}
+
+	13.4 Nennen Sie 3 Möglichkeiten, wie man den Nachteilen der ePA entgegensteuern kann.
+	{
+		- Klare und messbare Ziele definieren!
+		- Realisieren, dass eine ePA (außer Informationsbereitstellung) keine weiteren, bestehenden Probleme löst, z.B. bzgl. Prozesse, Qualität, Personal
+		- Alle Akteure informieren und kontinuierlich involvieren
+	}
+
+	13.5 Was sind Registerakten (im medizinischen Bereich) und welchen Nutzen verfolgen Sie?
+	{
+		Spezialisierte Akten für die medizinische Forschung, Epidemiologie, Qualitätsmanagement, Versorgungsforschung
+		  -> Nutzen: NICHT die Behandlung der Patienten
+	}
+}
+
+{
+##################################
+###-Zusatzfragen aus Übung-Ü1--###
+###-Projekt DEMIS: Meldepflicht###
+##################################
+
+	Z1.1 Was ist die Motivation für das Projekt DEMIS? Aus welchem Anlass wurde das Projekt initiiert?
+	{
+	    - Deutsches Elektronisches Melde- und Informationssystem für den Infektionsschutz
+		- Defizite im IfSG-Meldewesen während vergangenen Infektionsausbrüchen und Pandemien wie Influenza (2009) oder EHEC (2011)
+		- Ausbrüche sollen früher erkannt und Maßnahmen zu ihrer Bekämpfung zeitnah getroffen werden
+	}
+
+	Z1.2 Welche Ziele verfolgt DEMIS?
+	{
+		- Schnell, einfach und flexibel
+			* Verkürzung der Melde- und Übermittlungszeiten
+			* Medienbruchfreie elektronische Meldung
+			* Lageabhängige Anpassung der Datensätze und Geschäftsprozesse
+		- Verbesserung der Meldecompliance
+		- Steigerung der Qualität der übermittelten Inhalte
+		- Informationsaustausch zwischen allen Beteiligten
+		- Integration paralleler Informationsflüsse, z.B.
+			* Arztpraxen-Sentinel System der AG Influenza
+			* Antibiotika-Resistenz-Surveillance (ARS)
+		- Identifizierung und Berücksichtigung von Mehrbedarfen
+	}
+
+	Z1.3 Wie funktioniert DEMIS? Beschreiben Sie grob die Systemarchitektur.
+	{
+		- Sämtliche Meldungen werden an eine Adresse gesendet, und zwar an einen Verteilungsdienst und nicht mehr wie zuvor an das zuständige Gesundheitsamt
+		- Meldung möglich über Schnittstelle der TI oder über Online-Meldeportal
+		- DEMIS besteht aus
+			* Informationsdienst
+			* Verteilungsdienst
+			* Konfigurationsdienst
+	}
+
+	Z1.4 Welche Schwachstellen des existierenden, papiergebundenen Meldesystems nach Infektionsschutzgesetz (IfSG) sollen durch DEMIS angegangen werden?
+	{
+		- uneinheitliche bis lückenhafte Meldepraxis (Meldecompliance)
+		- Medienbrüche
+		- unzureichende Flexibilität der Meldeinhalte und -wege im Krisenfall
+		- unzureichende Berücksichtigung von Sicherheitsaspekten
+		- meist kein automatisches Erzeugen einer sendefertigen Meldung aus den existierenden Softwaresystemen der Nutzer heraus
+		- manueller Rechercheaufwand bei der Bestimmung des zuständigen Meldeempfängers (führt zu nicht-IfSG-konformer Adressierung)
+		- Uneinheitlichkeit der Meldeformulare der Gesundheitsämter
+		- weder automatisiertes noch zeitnahes Feedback zum Meldestatus und -kontext
+		- aufwändige Nachrecherche des GA beim Melder
+		- fehlende Abgleichmöglichkeit fallbezogener Identifizierungsmerkmale (führt zu Doppelzählungen)
+	}
+
+	Z1.5 Ärzte, Krankenhäuser und Labore sollen an der Telematik-Infrastruktur vernetzt werden. Landesgesundheitsbehörden und das Robert-Koch-Institut sind hingegen in der Deutschland-Online Infrastruktur angeschlossen. Wie sollen Meldungen von einem Arzt zu einem Gesundheitsamt übertragen werden?
+	{
+		- Über die jeweilige Schnittstelle zum DEMIS Service, der Dienste bereitstellt
+		- Über Pull (Nutzer-Initiative) und Push (System-Initiative)
+		- Der Verteilungsdienst übernimmt vollautomatisch die IfSG-konforme Adressierung der zuständigen Instanzen
+
+	}
+
+	Z1.6 Wie soll das System den richtigen Adressaten einer Meldung nach IfSG ermitteln?
+	{
+		- Der Verteilungsdienst übernimmt vollautomatisch die IfSG-konforme Adressierung der zuständigen Instanzen
+		- Über Meldequittungen (eingebettete Links)
+
+	}
+
+	Z1.7 Es gibt viele Menschen und Organisationen, die gemäß IfSG verpflichtet sind, Meldungen abzugeben. Labore können mehrere Tausend Meldungen im Jahr übertragen und haben eine professionelle IT, ein Hausarzt könnte einige Meldungen im Jahr abgeben, ein Kindergarten ohne nennenswerte IT ebenfalls. Wie können alle o.g. Melder über DEMIS effektiv arbeiten?
+	{
+		- Durch zwei Unterschiedliche Arten der Meldung
+			* Online über ein einen Browser: Meldeportal
+			* Einbindungen einer Schnittstelle an bestehende Systeme
+				-> Vermeiden von Einarbeitung in neue Systeme
+	}
+}
+
+
+
+
+{
+##################################
+###-Zusatzfragen aus Übung-Ü2--###
+###--public eHEalth Anwendung--###
+##################################
+}
+
+
+
+
+{
+##################################
+###-Zusatzfragen aus Übung-Ü3--###
+###------Quantified Self-------###
+##################################
+
+	Z3.1 Was wird als Quantified Self bezeichnet?
+	{
+		- Netzwerk aus Anwendern und Anbietern von Methoden sowie Hard- und Softwarelösungen
+		- mit deren Hilfe sie z. B. umwelt- und personenbezogene Daten aufzeichnen, analysieren und auswerten
+		- Ein zentrales Ziel stellt dabei der Erkenntnisgewinn u. a. zu persönlichen, gesundheitlichen und sportlichen, aber auch gewohnheitsspezifischen Fragestellungen dar.
+		- Erfassen von Daten vereinfachen und für den Massenmarkt zugänglich machen
+	}
+
+	Z3.2 Welche Hardware-Komponenten werden üblicherweise beim Quantified Self verwendet?
+	{
+		- Smart-Watches
+		- Handys
+		- Vitalitätssensoren
+		- Waagen
+		- Schrittzähler
+		- Schlafsensoren
+		- Wearables
+	}
+
+	Z3.3 Wo werden typischerweise damit (Quantified Self) erhobene Daten gespeichert?
+	{
+		- Online auf Cloud-Services, zugänglich für den Anwender und den Provider
+	}
+
+	Z3.4 Wo, wie und von wem können sie analysiert werden (Die Daten von Quantified Self)?
+	{
+		- Über Apps und Online Anwendungen
+		- Von Dritt-Parteien, einem selber und der Firma die die Anwendung bereitstellt
+		- Speichern in riesigen Datenbanken -> Zugriff über API
+	}
+
+	Z3.5 Welchen Einfluss kann Quantified Self auf die Gesundheit von Menschen haben?
+	{
+		- Ein bewussteres Leben
+		- Und dadurch ein gesünderes Leben
+		- Probleme fallen früher auf -> Frühwarnsysteme
+
+	}
+
+	Z3.6 Welche Vorteile und welche Risiken sehen Sie bei Quantified Self?
+	{
+		- Risiken:
+			* Datensicherheit
+			* Überwachung
+			* Suchtgefahr
+		- Vorteile:
+			* Bewusstseinverbesserung
+			* Positive Feedbackschleife
+	}
+}
+
+
+
+
+
+{
+##################################
+###-Zusatzfragen aus Übung-Ü4--###
+###-Fragen zu Österreichs ELGA-###
+##################################
+
+	Z4.1 Welche medizinischen Anwendungen sind in ELGA ausgerollt?
+	{
+	    - (ELGA = Österreich)
+		- eBefunde
+		- eMedikation
+	}
+
+	Z4.2 Welche E-Health Standards sind verpflichtend in ELGA?
+	{
+	    - (ELGA = Österreich)
+		- OASIS
+		- XSPA
+	}
+
+	Z4.3 Wie wird eine einheitliche Terminologie in der gesamten ELGA Infrastruktur erreicht?
+	{
+		- Über einen Terminologie Server
+	}
+
+	Z4.4 Welches Kommunikationsmuster und welche Technologie wird für die Dienste der ELGA eingesetzt?
+	{
+		- SOAP
+	}
+
+	Z4.5 Wie wird über alle Arztpraxen / Krankenhäuser sichergestellt, dass man immer den richtigen Patienten adressiert?
+	{
+		- Patientenindex:
+			* Hierarchisches Konzept
+			* Basierend auf der Österreichischen Sozialversicherungsnummer
+	}
+
+	Z4.6 Wie erhalten die Bürger*innen Zugriff auf die ELGA-Daten/Infrastruktur?
+	{
+		- Online Portal mit Login über Bürgerkarte
+	}
+
+}
+
+
+
+
+{
+##################################
+###-Zusatzfragen aus Übung-Ü5--###
+###Grundmodel. Zugriffkontrolle###
+##################################
+	Z5.1 Welche Grundmodelle in der Zugriffskontrolle existieren?
+	{
+		- DAC (Discretionary Access Control)
+		- MAC (Mandatory Access Control)
+		- RBAC (Role-based Access Control)
+		- ABAC (Attribute-based Access Control)
+	}
+
+	Z5.2 Welche Eigenschaften haben die Grundmodelle bzw. welche Unterschiede gibt es?
+	{
+		- DAC:
+			* Zugriffsrechte basierend auf Subjekt S und Objekt O
+			* Subjekt kann Zugriffsrechte eines Objektes festlegen
+			* Z.B. Besitzer (Owner) eines Objektes legt Zugriffsrechte fest
+			* Zugriffsrechte werden „pro Benutzer“ festgelegt -> keine Rollen
+		- MAC:
+			* Vergleich von Zugriffsebenen (Objekten) und Freigaben (Subjekte)
+			* Systemweite Regeln legen Zugriffsrechte fest, können vom Subjekt nicht verändert werden
+			* „Clearance“ von bestimmten Objekten und Subjekten
+		- RBAC:
+			* Subjekten werden Rollen zugewiesen
+			* Rollen bestimmen Zugriffsrechte auf Objekte
+		- ABAC
+			* Subjekte, Objekte haben Attribute
+			*Zugriffskontrollen-Entscheidung durch flexiblen Vergleich von Attributen
+	}
+
+	Z5.3 Welches Modell der Zugriffskontrolle implementiert ein Linux-Betriebssystem (ohne Erweiterungen, wie SELinux oder AppArmor)
+	{
+		- ACL (Access Control List)
+			* Legt fest wer mit was interagieren darf und in welcher Weise: read, write, execute
+			* Es kann Rollen und User-basiert festgelegt werden wer auf was Zugriff hat
+	}
+
+	Z5.4 Welches Modell der Zugriffskontrolle ist für die Anwendungen der elektronischen Gesundheitskarte gesetzlich festgelegt? Tipp: Schauen Sie mal in §291a SGB V Abs. 2, Abs. 3 und insbesondere Abs. 4
+	{
+		!!!Nicht sicher!!!
+		- Ich hätte gesagt ABAC, bzw. auf jeden Fall kein MAC, weil Berechtigungen geändert werden müssen können und das auch anhand verschiedenster Attribute
+	}
+
+	Z5.5 Welches Modell wäre für den Zugriff auf Patientendaten in einem Krankenhaus Ihrer Meinung nach geeignet?
+	{
+		!!!Nicht sicher!!!
+		- RBAC -> da unterschiedliche Rollen
+	}
+}
+
+
+
+{
+##################################
+###---Zusatzfragen aus Übung---###
+###---------Ü6 bis Ü9----------###
+###---gibt keine richtigen-----###
+##################################
+}
+
+
+
+{
+##################################
+###-Zusatzfragen aus Übung-Ü10-###
+###-Closed-Loop Medikationsproz###
+##################################
+
+	Z10.1 Was umfasst der Closed-Loop Medikationsprozess bzw. was versteht man darunter?
+	{
+		- Verschreibung
+		- Ausgabe
+		- Patientenidentifizierung
+		- Electronic Medication Administration Record (EMAR)
+		- Stafftime
+		-> Einführung von “automated dispensing, barcode scanning to confirm patient identity and electronic medication administration records (EMARs)”.
+		-> Closed Loop System
+	}
+
+	Z10.2 Welcher Effekt bzgl. Patientensicherheit konnte bei der Anwendung des Closed-Loop Medikationsprozesses nachgewiesen werden?
+	{
+		- Weniger Fehler bei der Verschreibung von Medikamenten und weniger MAEs (medication administration errors)
+		- Patienten öfter richtig identifiziert
+	}
+
+	Z10.3 Welcher Effekt bzgl. Effizienz konnte bei der Anwendung des Closed-Loop Medikationsprozesses nachgewiesen werden?
+	{
+		- Mehr Zeit, die auf Medikations-relatete Aufgaben verwendet wird
+	}
+
+	Z10.4 Welche Fehler konnten mit dem Closed Loop Prozess reduziert werden?
+	{
+		- Prescribing errors
+		- MAEs (medication administration errors)
+		- Patient identity Überprüfung fand öfter statt
+	}
+
+	Z10.5 Welche Anforderungen (Kriterien gemäß Bewertungsleitfaden) werden gemäß der Handlungsempfehlung spezifisch an die Medizinische Informatik gestellt bzw. können mit Hilfe der Medizinischen Informatik erfüllt werden? (Stichpunkte) (Bezogen auf Arzneimitteltherapiesicherheit im Krankenhaus)
+	{
+		- Berechnung der Nierenfunktion, wenn Patient > 65
+		- Wechselwirkungen bei der Medikation sollen über Software und elektronische Erfassung überprüft werden
+		- Vier-Augen-Prinzip -> Eine Person stellt aus, eine Person überprüft
+		- Sichere Zuordnung des richtigen Arzneimittels zum richtigen Patienten -> Durch Überprüfung von Namen, Beschriftung von Dingen, Schildchen, …
+		- Verantwortlichkeiten und Prozesse innerhalb der Klinik sind bis zum Zustandekommen einer Meldung geregelt
+		- Mitarbeiter und am Medikationsprozess beteiligte haben Zugang und Zugriff auf notwendige Informationen zu Patienten und Arzneimitteltherapie
+		- Ausführliche Information des Patienten -> Elektronische Beipackzettel, Informationen auf Unit-Dose-Tüten, Hinweise zur Einnahme
+		- Informationsmaterialien unterstehen einer strengen Qualitätskontrolle -> Verfallsdatum und stetig Aktualisierung von Informationen; Informationslenkung
+		- AMTS ist alles klares Ziel definiert in UKE Strategie
+		- Es gibt verantwortliche für die AMTS -> Gremium, in dem mindestens eine Person explizit verantwortlich ist
+		- Enge Zusammenarbeit, da interdisziplinäres Problem -> Einbinden aller Beteiligten
+		- Auch Patienten müssen sensibilisiert werden und durch ausreichende Information auf ihre Rolle eingewiesen werden
+		- AMTS Teil der Stationsbegehungen -> Teil der Qualitätskontrolle; Protokollierung der Ergebnisse
+		- Schulungen und spezieller Umgang mit Hochrisikoarzneimitteln
+		- Einführung strukturierter Kommunikationsprozesse
+		- Maßnahmen zur Patienten-Verwechslungs-Vermeidung -> Armband mit Namen und Geburtsdatum
+		- Schaffung einer Plattform für Fehler und Beinahe-Zwischenfälle -> Auch Analyse dieser Daten
+		- Schulung aller am Medikationsprozess Beteiligten über häufige Risikoquellen im regelmäßigen Abstand
+		- Etablierung einer hilfsbereiten Kommunikationskultur -> v.a. bei Fehlern und Beinahe-Zwischenfällen, sonst werden Sachen verschwiegen
+		- Umstellung auf Hausliste?
+		- Abgleich von Ist- und Sollzustand in Einrichtungen im Abgleich mit „Medical Reconciliation“
+		- Prozess zur Vermeidung von Allergiekonflikten
+		- Eindeutige Arzneimittelverordnung im elektronischen Verschreibungssystem
+		- Einführung und Nutzung einer elektronischen Verordnungsplattform -> Zur Entscheidungsunterstützung; Plausibilitätskontrollen
+		- Gemeinsame Medikationsvisiten mit Apothekern oder Experten -> Routinevisiten
+		- Vermeidung von Medienbrüchen -> Und wenn dann im Vier-Augen-Prinzip
+		- Maßnahmen zur Vermeidung von look-alike und sound-alike Verwechslungen bei Arzneimitteln -> Kennzeichnungskonzepte
+		- Arzneimittel müssen bis zum Einnahmezeitpunkt identifiziert werden können -> Extraverpackungen, Labeling, Unit-Dose-Systeme
+		- Maßnahmen um Arzneimittel zum richtigen Patienten zu bringen -> Dispensierkarten, geeignete Beschriftungen, Patientenarmbänder
+		- Sauberer und ruhiger Zubereitungsplatz für Arzneimittel
+		- Vier-Augen-Prinzip auch beim Erstellen/Zubereiten der Arzneimittel
+		- Ready-to-use Arzneimittel mit einheitlicher Nomenklatur verwenden und Just in Time Zubereitung vermeiden
+		- Teilen und Mörsern von festen oralen Arzneimitteln vermeiden
+		- Vermeidung der Verwechslungsgefahr der Einnahmeform
+		- Online Dokumentation der Einnahme auf der Plattform
+		- Maßnahmen zur zeitlichen Medikationseinhaltung -> z.B. Wecker-Funktion
+		- Medikation wird regelmäßig überprüft und angepasst z.B. Menge, Häufigkeit, Medikament
+		- Standardisierter Medikationsplan
+		- Gewährleistung ausreichender Information des weiterführenden Arztes
+		- Versorgung des Patienten mit Arzneimitteln muss sichergestellt werden -> v.a. beim Übergang in andere Versorgungsbereiche (Arztwechsel, Therapiewechsel)
+
+		-> Medizinische Informatik kann v.a. unterstützend wirken:
+			* Plattform bereitstellen
+			* Funktionen online bereitstellen
+			* Kommunikation ermöglichen
+			* Dokumentation ermöglichen
+			* Qualitätssicherung durch automatisierte Plausibilitätsprüfungen
+	}
+
+	Z10.6 Welche IT-Systeme werden typischerweise in Krankenhäuser eingesetzt?
+	{
+		- Krankenhausinformationssysteme (KIS)
+			* Z.B. Eingabe, Verwaltung, Patientenstammdaten. Finanz- und Abrechnungsdaten
+			* Prozessmanagement
+			* Verordnungen, Befunde, Untersuchungen, ...
+		- Dokumentenmanagementsysteme (DMS)
+			* Patientenakte in Form von Dokumenten
+		- Spezialsysteme:
+			* RIS (Radiologie-Informationssysteme)
+			* PACS (Picture Archiving und Communication System)
+			* LIS (Labor-Informationssystem)
+			* Op-Informationssystem / -Planung
+	}
+
+	Z10.7 Warum sind Standards und Interoperabilität auch innerhalb eines Krankenhauses wichtig?
+	{
+		- Weil die Betreuung der Patienten sehr komplex ist und über Krankhaustürgrenzen hinaus Kommunikation zwischen den beteiligten bestehen muss
+		- Zur Unterstützung des Krankenhausprozesses
+	}
+
+	Z10.8 Welche Ziele haben krankenhausinterne elektronische Patientenakten?
+	{
+		- Dokumentation der Krankenhausgeschichte und der Behandlung des Patienten
+		- Information des Arztes bei einer nachfolgenden Behandlung -> Wichtig für die klinischen Entscheidungen des Arztes
+		- Umfassende und schnelle Information aller beteiligten Ärzte in einer Behandlungssituation -> Unterstützung der Zusammenarbeit
+		- Effektive Suche nach bestimmten Informationen in der Akte
+		- Nachvollziehbarkeit der Behandlung für rechtliche Zwecke
+		- Unterstützung administrativer Anwendungen, wie z.B. Abrechnung
+	}
+
+	Z10.9 Welche Verwendungszwecke haben krankenhausinterne elektronische Patientenakten?
+	{
+		- Unterstützung der Behandlung (Primärer Zweck)
+		- Erfüllung gesetzlich vorgeschriebener nachgeordneter Zwecke wie Abrechnung, Meldepflichten, Qualitätsmanagement etc. (Sekundärer Zweck)
+		- Forschung und Lehre, Gesundheitsberichtserstattung, Epidemiologie etc. (Tertiärer Zweck)
+	}
+
+	Z10.10 Welche Komponenten haben krankenhausinterne elektronische Patientenakten? Welche Funktionen erfüllen diese Komponenten?
+	{
+		- Primärdatenspeicher, Dokumentenspeicher, Document-Repository
+			* Medizinische Informationen, Phänomen-Dokumentation, Dokumente
+		- Metadatenspeicher, Document-Registry
+			* Indizierungs- und Beschreibungsinformationen zu den Daten des Primärdatenspeichers
+		- Wissensspeicher, falls Primärdaten semantisch kodiert sind
+			* Informationen zu Terminologien/Vokabularen, Klassifikation, Ordnungssystemen, Leitlinien, klinischen Pfaden, usw.
+		- Interaktions- und Präsentationskomponente
+			* Aktenbrowser, Ein-/ Ausgabe, Steuerung, Suche, Kommunikation, usw.
+	}
+
+	Z10.11 Welche Unterschiede bestehen i.d.R. in den Patientenakten zwischen Krankenhaus und Arztpraxis?
+	{
+		- Krankenhaus:
+			* Akte ist häufig dokumentenorientiert
+			* Umfasst alle medizinischen Dokumente des Patienten sowie Bilder, Signaldaten, usw.
+			* Entspricht in wesentlichen der Struktur des Papierakte im Krankenhaus
+			* Sehr häufig Hybrid-Dokumentation: Elektronische Dokumentation mit Verweisen zu Papier-Dokumenten in einer Papier-Akte
+		- Arztpraxis:
+			* Akte i.d.R. prozessorientiert
+			* Laufende „Rolle“ mit Befunden, Notizen, Diagnosen, Maßnahmen, Dokumenten, usw. im Zeitverlauf
+	}
+
+	Z10.12 Beschreiben Sie verschiedene Strukturierungsgrade elektronischer Patientenakten.
+	{
+		- Hybride Akte -> unstrukturiert (häufig)
+			* Elektronisch: Patienten-, Fall- und Abrechnungsdaten, ggf. Verweise zu Papierdokumenten
+		- Elektrische Akte -> wenig strukturiert (häufig)
+			* Patienten- und Abrechnungsdaten, Freitexteinträge in definierten Feldern, gescannte Papierdokumente oder formularmäßige elektronische Dokumente (z.B. PDF, Word)
+		- Hochstrukturierte elektronische Akte
+			* Kodierte Informationen anhand von kontrollierten Vokabularen/ Terminologien -> HL7 z.B.
+	}
+
+	Z10.13 Welchen Nachteil haben unstrukturierte elektronische Patientenakten bzgl. E-Health Anwendungen?
+	{
+		- Geringe Strukturierung der Daten -> Viel Freitext oder gar unveränderliche Dokumente (PDF), wenig kodierte Informationen
+		- Semantische Interoperabilität schwierig
+			* Bei Text: nur auf Feld-Ebene (z.B. Diagnosen)
+			* Inhalt nicht maschinenauswertbar
+	}
+}
+
+
+
+
+{
+##################################
+###-Zusatzfragen aus Übung-Ü11-###
+###------Standards -> HL7 -----###
+##################################
+
+	Z11.1 Was sind syntaktische, was semantische Standards? Geben Sie jeweils 2 Beispiele.
+	{
+		- Syntaktische Standards (Formate):
+			* HL7v2
+			* HL7v3
+			* HL7-CDA
+			* HL7-FHIR
+		- Semantische Standards (Sinn, Bedeutung):
+			* LOINC
+			* Snomed-CT
+			* ICD
+			* ICF
+			* MedDRA
+			* ISO-Tabellen
+			* UCUM
+	}
+
+	Z11.2 Was kann man mit Hilfe des ICD-Standards kodieren? Was mit OPS?
+	{
+		- ICD: Diagnosen, Symptome (Internal Statistical Classification of Diseases and Related Health Problems)
+		- OPS: Prozeduren, Operationen (Operationen- und Prozedurenschlüssel)
+	}
+
+	Z11.3 Was kann LOINC kodieren?
+	{
+		- Medizinische Untersuchungen (Logical Observation Identifiers Names and Codes)
+	}
+
+	Z11.4 Was kann SNOMED-CT mehr als ICD? Ist SNOMED-CT in Deutschland / international üblich?
+	{
+		- Feingranularer als ICD
+		- In Deutschland nicht üblich, international aber sehr wohl
+
+	}
+
+	Z11.5 Welche Ziele verfolgen die HL7-Standards?
+	{
+		- Bereitstellung von Formaten und Protokollen zum Austausch von Datensätzen und Dokumenten zwischen Computersystemen im Gesundheitswesen
+		- Standardisierung der auszutauschenden Inhalte und damit Vereinheitlichung der Schnittstellen (semantische Interoperabilität)
+	}
+
+	Z11.6 Welche technischen Unterschiede gibt es zwischen HL7v2 und HL7v3?
+	{
+		- HL7-v2 ist nicht XML-basiert v3 schon
+		- HL7-v2 ist weiter verbreitet als v3
+	}
+
+	Z11.7 Wo und wofür wird HL7v2 eingesetzt?
+	{
+		- Innerhalb eines Krankenhauses Subsysteme miteinander vernetzen
+	}
+
+	Z11.8 Welcher Message-Typ wird in HL7v2 für die ambulante oder stationäre Aufnahme eines Patienten eingesetz?
+	{
+		- Stationär: ADT^A01
+		- Ambulant: ADT^A04
+	}
+
+	Z11.9 Mit welchen Protokollen werden HL7-Nachrichten über ein Netzwerk übertragen?
+	{
+		- MLLP (Minimal Lower-Layer Protocol)
+		- HTTP
+	}
+
+	Z11.10 Was ist HL7-CDA? Was kann man damit kodieren?
+	{
+		- Clinical Document Architecture
+		- Im Gegensatz zu anderen Standards in HL7 zur Kodierung von Dokumenten
+	}
+
+	Z11.11 Welchen Unterschied gibt es zwischen den HL7-CDA Levels 1, 2 und 3?
+	{
+		- Level1: Metadaten (Header), Struktur und Inhalt nur innerhalt eines Segments (Inhalt in Freitext)
+		- Level2: Struktur kodiert, Inhalte in Freitext
+		- Level3: Hochstrukturiert, auch Inhalte sind Strukturiert
+	}
+}
+
+
+
+
+{
+##################################
+###-Zusatzfragen aus Übung-Ü12-###
+###---------IHE Profile--------###
+##################################
+
+	Z12.1 Was sind IHE-Profile?
+	{
+		- Aus UseCases und relevanten Standards werden Leitfäden entwickelt, mit denen der Hersteller sein Produkt umsetzen und testen kann -> sog. IHE Profile
+		- Integrationsprofile
+		- Einschränkung eines Standards durch Profilierung
+	}
+
+	Z12.2 Mit welcher Motivation wurden IHE Profile entwickelt?
+	{
+		- HL7, DICOM, usw.  haben sehr viele (zu viele) Optionen
+		- Es ist sehr schwer, praktisch unmöglich für einen Hersteller, sämtliche Optionen eines Standards zu unterstützen
+		  -> Im Ergebnis keine Interoperabilität
+	}
+
+	Z12.3 Was ist das Ziel von IHE-Profilen?
+	{
+		- Nutzt vorhandene Standards, um im Kontext eines Geschäftsprozesses Interoperabilität zu erzielen
+		- Ziel ist immer die interoperable Kommunikation medizinischer Informationen im Kontext klinischer Prozesse
+	}
+
+	Z12.4 Welche Standards setzen IHE-Profile ein?
+	{
+		!!!Nicht sicher!!!
+		- HL7, DICOM, ...
+	}
+
+	Z12.5 Was sind Transaktionen im Kontext der IHE-Profile?
+	{
+		- So etwas wie eine Funktion -> Es wird für eine Transaktion genau beschrieben aus welchen Schritten und über welche Schnittstellen Informationen ausgetauscht werden
+		- Z.B. „PatientRegistration“ oder Anforderung bestimmter Daten
+		- Transaktionen werden zwischen Akteuren definiert
+		- Austausch von Dokumenten, Suchanfragen, usw.
+	}
+
+	Z12.6 Was bedeutet es, dass IHE-Profile Kommunikationsprotokolle im Kontext klinischer Prozesse definieren? Was ist damit gemeint?
+	{
+		!!!Nicht sicher!!!
+		- Innerhalb einer Domain wird für die Kommunikation ein Protokoll festgelegt
+		- Dadurch wird Interoperabilität ermöglicht
+	}
+
+	Z12.7 Was ist eine XDS Affinity Domain?
+	{
+		- Gruppe von Einrichtungen im Gesundheitswesen, die kooperieren und Gesundheitsdaten austauschen
+		- mit gemeinsamen Policies
+	}
+
+	Z12.8 Wofür wird IHE-XDS.b eingesetzt?
+	{
+		- (Cross Enerprise Document Sharing)
+		- Registrierung / Speicherung / Abruf von Submission-Sets („Ordner“ mit mehreren Dokumenten)
+		- XDS.b verarbeitet beliebige Inhalte -> Definiert also nicht, was transportiert werden darf
+	}
+
+	Z12.9 Welche Funktion hat die Registry, welche das Repository in IHE-XDS.b?
+	{
+		- Source:
+			* Datenquelle -> Liefert Dokumente und Metadaten an Repository
+		- Repository:
+			* Speichert Dokumente
+			* Läuft i.d.R. lokal (z.B. im Krankenhaus), kann aber auch woanders sein
+			* Registriert Dokumente an Registry
+			* Liefert Dokumente, die abgerufen werden, anhand deren Identifier
+		- Registry:
+			* Speichert Metadaten der Dokumente
+			* Unterstützt Suchabfragen
+			* Nutzt dafür die Patientenidentifikation
+		- Consumer:
+			* Sucht nach Dokumenten im Registry
+			* Ruft dann gefundene Dokumente ab
+		- Patient Identity Source:
+			* Liefert Informationen zur Patientenidentifikation, insbesondere eine eindeutige Patienten-ID
+	}
+
+	Z12.10 Welche Funktionen übernimmt das IHE-ATNA Profil?
+	{
+		- (Audit Train and Node Authentification)
+		- Authentifizierung / Verschlüsselung der Kommunikation zwischen Maschinen
+		- Zentrale Protokollierung (Auditing) aller Aktionen -> Wer hat was gemacht
+	}
+
+	Z12.11 Wofür wird das IHE-Profil IHE-MHD verwendet?
+	{
+		- (Mobile access to Health Documents)
+		- Definiert ein http Interface für eine Document Sharing Umgebung
+		- V.a. gedacht für Applikationen die lieber über HTTP als XDS zugreifen wollen
+	}
+
+	Z12.12 Wofür wird das IHE-Profil IHE-APPC verwendet?
+	{
+		- (Advanced Patient Privacy Consents)
+		- Contentprofil, mit dem patienten-spezifische Einwilligungen erfasst, verwaltet und zwischen verschiedenen Systemen und Organisationen ausgetauscht werden können
+	}
+}
+
+
+
+
+{
+##################################
+###-Zusatzfragen aus Übung-Ü13-###
+###----IHE Profile und CDS-----###
+##################################
+
+	Z13.1 Bitte ordnen Sie der Funktion eine geeignetes IHE-Profile zu: Daten in mehreren Repositories speichern
+	{
+		- IHE-XDS.b (Cross-Enterprise Document Sharing)
+	}
+
+	Z13.2 Bitte ordnen Sie der Funktion eine geeignetes IHE-Profile zu: Es gibt eine Registry in einem Krankenhaus
+	{
+		- IHE-XDS.b (Cross-Enterprise Document Sharing)
+	}
+
+	Z13.3 Bitte ordnen Sie der Funktion eine geeignetes IHE-Profile zu: Verzeichnis der Ärzte (Health Care Professionals)
+	{
+		!!!NIcht sicher!!!
+		- IHE-XDS.b (Cross-Enterprise Document Sharing)
+	}
+
+	Z13.4 Bitte ordnen Sie der Funktion eine geeignetes IHE-Profile zu: Ein Master-Patienten-Index
+	{
+		- IHE-PIX (Patient Identifier Cross-Referencing)
+	}
+
+	Z13.5 Bitte ordnen Sie der Funktion eine geeignetes IHE-Profile zu: Die Möglichkeit einen Patienten auf Grundlage seiner persönlichen Daten zu suchen, seine Dokumente anhand ihrer Metadaten zu suchen und abzurufen
+	{
+		- IHE-PDQ (Patient Demographics Query)
+	}
+
+	Z13.6 Bitte ordnen Sie der Funktion eine geeignetes IHE-Profile zu: Zur Akte gehören auch Dokumente aus der Radiologie
+	{
+		- IHE-XDS-I (Cross-enterprise Document Sharing for Imaging)
+	}
+
+	Z13.7 Bitte ordnen Sie der Funktion eine geeignetes IHE-Profile zu: Außerdem soll ein Audit-Log alle Zugriffe, Anfrage usw. protokollieren
+	{
+		- IHE-ATNA (Audit Trail and Node Authentication)
+	}
+
+	Z13.8 Bitte ordnen Sie der Funktion eine geeignetes IHE-Profile zu: Eine Rechteverwaltung ist notwendig
+	{
+		- IHE-XUA++ (Cross-Enterprise User Assertion)
+	}
+
+	Z13.9 Bitte ordnen Sie der Funktion eine geeignetes IHE-Profile zu: Der Patient muss Einwilligungen aussprechen können
+	{
+		- IHE-APPC (Advanced Patient Privacy Consents)
+	}
+
+	Z13.10 Bitte ordnen Sie der Funktion eine geeignetes IHE-Profile zu: Ärzte usw. sollen zusätzlich einen mobilen Zugang (z.B. mit einem Tablet) auf die Akten erhalten.
+	{
+		- IHE-MHD (Mobile access to Health Documents)
+	}
+
+	Z13.11 CDS - Welchen Zweck verfolgen diese Systeme?
+	{
+		- Verbesserung klinischer Entscheidungen und klinischer Prozesse durch die Bereitstellung relevanter klinischer Informationen im Prozess
+		- Unterstützung der Health Care Professionals bei der evidenzbasierten Diagnose
+	}
+
+	Z13.12 Welche Motivation gibt für die Nutzung von CDS?
+	{
+		- Vermeidbare Fehler minimieren
+		- Informationsexplosion: Medizinisches Wissen verdoppelt sich momentan (2020) alle 73 Tage -> Ausbildung, Intuition und Erfahrung reichen nicht mehr aus für Kliniker
+		- Wissensverbreitung: Es dauert sehr lange bis wissenschaftliche Erkenntnisse in die Kliniken gelangen -> 17 Jahre für 14%
+		- Wandel der Vergütung -> Pay-for-Performance
+	}
+
+	Z13.13 Welche Informationen werden in einem CDS wie aufbereitet?
+	{
+		- Diagnose und Patientendaten -> Diagnose nach Vitalitätswerten
+		- Symptome
+		- Medizinische Vergangenheit
+		- ...
+	}
+
+	Z13.14 Wie sollte die Integration eines CDS in einem KIS erfolgen, d.h. welche KIS-Funktionen sollen aus dem CDS – und umgekehrt – aufgerufen werden können?
+	{
+		!!!Nicht sicher!!!
+		- Klinische Wissensdatenbanken
+		- Anordnungssets
+		- Computerinterpretierte Leitlinien
+		- AMTS-Checks
+	}
+
+	Z13.15 Welche Herausforderungen gilt es bzgl. der Interpretation eingegebener klinischer Daten der Patienten in einem CDS zu meistern?
+	{
+		- Man braucht eine zentrale Digitale Akte des Patienten -> sonst fehlen zu viele Informationen, als dass das CDS-System wirklich eine Hilfe darstellen kann
+		- Krankenhäuser müssen nachrüsten und Gesundheitssystem muss sich anpassen und einen Schritt Richtung Digitalisierung machen
+	}
+}
+
+{
+#####################################
+###-Übernommene Fragen von Julian-###
+### -----------Part01-------------###
+#####################################
+
+	J1.1 Nenne 5 Teilbereiche von E-Health jeweils mit einem Beispiel:
+	{
+		- eCare
+			• Telemedizinische Versorgung
+			• Notfalldatensatz
+			• Medikationsplan, Arzneimitteltherapiesicherheitsprüfung (!)
+			• Elektronische Patientenakte, elektronische Fallakte
+		- eAdministration
+			• Nachweis der Berechtigung für medizinische Leistungen (à gültiger Versicherungsnachweis)
+			• Verwaltung der Stammdaten der Krankenversicherung
+			• eRezept
+			• eÜberweisung
+			• eKrankenhauseinweisung
+			• Patientenquittung
+			• Einreichen von Rechnungen bei der privaten Krankenversicherung
+			• Genehmigung von spez. Behandlungen, Hilfsmitteln usw.
+			• Online-Terminvergabe der Arztpraxis
+		- ePrevention
+			• Leistungen und Dienste, die Menschen helfen, gesund zu bleiben
+			• Ambient Assisted Living
+			• Consumer Health Informatics (teilweise)
+			• mHealth
+		- eResearch
+			• „Secondary Use“ von Patientendaten
+			• Elektronische Einwilligung für med. Studien
+			• Elektronische Unterstützung des Datenschutzes bei Studien
+			• Big Data
+			• Unterstützung der Translation
+		- eLearning
+			• Unterstützung der Ausbildung, Weiterbildung und Fortbildung in der Medizin
+			• Ausbildung, Fortbildung weiterer Gesundheitsberufe
+		- ePublicHealth
+			• Unterstützung der Öffentlichen Gesundheitsvorsorge der Bevölkerung
+			• Meldung von Infektionskrankheiten, Koordination von Maßnahmen
+			• Unterstützung der Versorgungsforschung
+	}
+
+	J1.2 Was ist der Unterschied zwischen einer telemedizinischen Untersuchung und einer telemonitorischen Untersuchung?
+	{
+		- Den Patienten den Zugang zu geeigneten medizinischen Maßnahmen eröffnen
+		- Die nicht vor Ort verfügbar sind: Telemedizinische Versorgung
+		- Die nicht zur richtigen Zeit verfügbar sind: Telemonitoring
+	}
+
+	J1.3 Was ist „Consumer Health Informatics“?
+	{
+		- Erbringung von Gesundheitsdiensten mit Hilfe der Informatik direkt an Patienten oder gesunden Menschen
+		- mHealth (Apps in der Medizin)
+	}
+
+	J1.4 Was versteht man unter „Secondary Use“ von Patientendaten?
+	{
+		- Wiederverwendung von Daten für andere Studien, Projekte, Forschungen, …
+		- Einwilligung!
+	}
+
+	J1.5 Bewerten sie die Aussage „E-Health ist kein Selbstzweck“ und nennen sie 4 Ziele von E-Health!
+	{
+		- E-Health dient nur der Unterstützung von konkreten Problemstellungen im Gesundheitswesen
+		Ziele:
+			• Bessere Medizin
+			• Effektiveres Gesundheitswesen
+			• Effektivere Verwaltung
+			• Bessere Patientenversorgung, mehr Qualität
+			• Mehr Patientensicherheit
+			• Förderung und Erhalt der Gesundheit des einzelnen Menschen und der gesamten
+		Bevölkerung
+			• Bessere und effektivere medizinische Forschung
+	}
+
+	J1.6 Wie definiert sich E-Health in Abgrenzung zu anderen Anwendungen der med. Informatik?
+	{
+		- Bei E-Health liegt der Fokus in Anwendungen der med. Informatik in der unmittelbaren oder mittelbaren Patientenversorgung
+		- Sowie im Aspekt der Vernetzung von verschiedenen Einrichtungen im Gesundheitswesen
+	}
+
+	J1.7 Viele E-Health Projekte scheitern während der Entwicklung. Geben sie Gründe dafür an und zeigen sie den richtigen Weg auf!
+	{
+		- Entwicklung eines Produktes, das dann ohne vorherige Bedarfsanalyse in den Markt integriert werden soll. (Abläufe vor Ort sollen an das Produkt angepasst werden)
+		- Entwicklung von Bananensoftware  Missstände sollen erst nach dem Release festgestellt und ausgebessert werden.
+
+		Richtig:
+			• Versorgungsziel aus medizinischer Sicht definieren, Problemstellung
+			• Lösungen nach Bedarf des Gesundheitswesens entwickeln
+			• Prozesse des Gesundheitswesens im Design berücksichtigen
+			• Datenschutz und Informationssicherheit bereits im Design des Projektes und der Software berücksichtigen
+			• Verständliche Beschreibung liefern, Anforderungs- und UseCase-zentriert, Nutzen herausarbeiten
+	}
+
+	J1.8 In welchen Teilbereichen von E-Health kann „Consumer Health Informatics“ eingesetzt werden?
+	{
+		• ePrevention
+		• eCare
+		• eLearning
+	}
+
+	J1.9 Erklären Sie E-Health mit ihren eigenen Worten? Was verstehen Sie unter dem Begriff E-Health?
+	{
+		Die Nutzung von elektronischen Hilfsmitteln zur Verbesserung der Gesundheitsversorgung
+	}
+
+	J1.10 Welchen Nutzen hat eCare? Erklären Sie dabei relevante Schlüsselbegriffe!
+	{
+		- Telemedizinische Versorgung: Zugang zu Maßnahmen nicht vor Ort (z.B. Beratung per Skype)
+		- Telemonitoring: Zugang zu Maßnahmen nicht zur richtigen Zeit (z.B. nächtliche Überwachung)
+		- Sektorübergreifende Vernetzung: Elektronisch unterstützte Kommunikation und Kooperation zwischen Hausarzt, Facharzt, Krankenhaus, Labor
+		- Patient Empowerment: dem Patienten mehr Informationen und Verantwortung geben und ihn besser und aktiver in seine Betreuung und Therapie einbeziehen
+		- Consumer Health Informatics: direkt an Patienten adressierte Dienste (Online Selbsthilfegruppen, Video-Sprechstunde, Ferndiagnose per Foto)
+	}
+
+	J1.11 Was versteht man unter Telemedizin?
+	{
+		Telemedizin ist keine Medizin aber bringt bestehende medizinische Expertise über Entfernungen näher an den Patienten.
+	}
+
+
+	J1.12 Beschreiben sie den Begriff "Patient Empowerment"
+	{
+		Die Vergabe von Informationen und Verantwortung an den Patienten, um diesen in seiner Behandlung und Therapie stärker einzubeziehen.
+	}
+
+	J1.13 Erklären Sie nach welchem Prinzip die Daten zwischen den Konnektoren verschlüsselt werden.
+	{
+		Patientenindividuelle Verschlüsselung + Ende-zu-Ende Verschlüsselung
+	}
+
+	J1.14 Mit welchem dieser Ansätze (Top-Down/ Bottom-Up)wurde die TI umgesetzt? Nennen Sie je 1 wesentlichen Vor- und Nachteil dieses Ansatzes.
+	{
+		Mit Top-Down.
+		Vorteile: flächendeckende Vernetzung, kontrollierte Sicherheit, Interoperabilität
+		Nachteil: Zwangsinfrastruktur, Innovationen werden „im Keim erstickt“
+	}
+
+	J1.15 Wesentlicher Bestandteil der Datensicherheit in der TI ist die Tatsache, dass ein Patient den Zugriff aus seine Daten mittels PIN freigeben muss. Für eine Anwendung wie die Notfalldaten ist dieses Vorgehen jedoch nicht zielführend – wie kann hier die Datensicherheit gewährleistet werden? Erklären sie dieses Vorgehen!
+	{
+		Card-to-Card-Authentisierung
+		-> Zugriff mit Hilfe der eGK auf verschlüsselte Patientendaten nur bei Anwesenheit (also
+		nach Freischaltung) eines HBA (Heilberufsausweis) oder SMC (Security Module Card, Praxisausweis)
+	}
+
+
+	J1.16 Nennen Sie eine Eigenschaft der Telematik-Infrastruktur und erklären Sie diese kurz
+	{
+		Serviceorientierte Architektur, Kommunikation via SOAP, eigener Broker für jede Anwendung
+	}
+
+	J1.17 Warum sind Patientendaten schützenswerter als z.B. Finanzdaten?
+	{
+		- Patientendaten haben i.A. längere Relevanz (z.B. Genetischer Defekt das ganze Leben lang und ggf. auch auf Kinder übertragbar)
+		- Besonderes Vertrauensverhältnis zwischen Arzt und Patient notwendig (Pat. Muss sich offenbaren können)
+	}
+
+	J1.18 Welcher Bestandteil der Telematik-Infrastruktur bildet die Verbindung zwischen den Konsumenten und dem Netzwerk?
+	{
+		Konnektor
+	}
+
+	J1.19 Welche Funktionen hat der Konnektor in der Telematik-Infrastruktur?
+	{
+		•	Steuerung der Chipkarten
+		•	Anbieten von Basis-Diensten, wie Ver-/Entschlüsselung, Authentisierung
+		•	Signaturanwendungskomponente (Erzeugen und Prüfen von elektronischen Signaturen)
+		•	Vermitteln einer sicheren Internetverbindung (über Security Gateway in der TI)
+		•	Verbindung zum „Sicheren Netz der Kassenärztlichen Vereinigungen“
+		•	Netzkonnektor: VPN-Device: Sichere Netzanbindung in die Telematik-Infrastruktur
+		•	Module mit Fachlogik für E-Health Anwendungen
+		•	Anwendungsproxy / -server
+		•	Schutz der Praxis-IT / Schutz der TI / Schutz der E-Health
+	}
+
+	J1.20 Geben Sie drei mögliche Use Cases f¸r die elektronische Gesundheitskarte und die Telematik-Infrastruktur an.
+	{
+		- eMedikationsplan / Arzneimitteltherapiesicherheitsprüfung (AMTS) zur Vermeidung von Neben- / Wechselwirkungen -> Sicherheit für den Patienten
+		- ePatientenakte zum Informationsaustausch zwischen ƒrzten -> schnellere und bessere Behandlung
+		- Notfalldatenmanagement (NFDM) -> sofort zugreifbare Informationen f¸r den Notarzt
+		- eArztbrief zur Behebung von Informationsdefiziten und schnelleren Information ¸ber den Patienten und die Diagnose
+		- Organspendeerkl‰rung und zugehörige Hinweise zur Behebung von Informationsdefiziten
+		- eRezept zur Vernetzung und Vereinfachung der Kommunikation
+		- Versichertenstammdatenmanagement (VSDM) zur Behebung von Informationsdefiziten
+	}
+
+	J1.21 Nennen Sie das Architekturprinzip und die groben Komponenten der Telematik-Infrastruktur.
+	{
+		-> Service-orientierte Architektur (SOA)
+
+		-> Plattform
+		* Netz (Backbone, Anbindung der Endpunkte ¸ber VPN-Konnektoren)
+		* Identity-Management (PKIs, elektronische Gesundheitskarten, Heilberufsausweise, etc.)
+		* dezentrale Komponenten (Konnektoren, Kartenterminals)
+		* gemeinsame Unterst¸tzungsdienste
+
+		-> Anwendungen
+		* Fachdienste und Intermedi‰re (zentral und dezentral im Konnektor)
+	}
+
+	J1.22 Während es in Deutschland kaum Interesse zum Ausbau der TI seitens der Industrie gibt, ist das Engagement der Industrie der US deutlich höher. Nennen Sie die wesentlichen Gründe hierfür und gehen Sie dabei auf die wesentlichen Unterschiede der beiden Systeme ein!
+	{
+		- Keine vorgeschriebene Hardware -> freie Wahl
+		- Nur Vorgabe von Specs -> Standards
+		- Keine physische Infrastruktur -> Kann von der Industrie selbst entwickelt werden
+		- Bereitstellung eines Software-“Konnektors“ als open source mit Zielgruppe die Health-IT-Industrie -> nur Zertifizierung der Software notwendig
+		- Wirtschaftliche Anreize zur Motivation
+	}
+
+	J1.23 Nenne die drei Stages, welche dem Aufbau der Amerikanischen eHealth-Infrastruktur zugrunde lagen. Erläutere dann kurz deren Inhalt.
+	{
+		Stage 1: Data Capture and Sharing -> alles digitalisieren
+		Stage 2: Advance clinical processes -> Stage 1 intensivieren
+		Stage 3: Improved Outcomes -> Bessere Gesundheit(svorsorge)
+	}
+
+	J1.24 Welchen großen Vorteil bringt der Einsatz von Chipkarten in der Telematik-Infrastruktur?
+	{
+		- Sichere, unauslesbare, unkopierbare Schlüsselspeicher
+		- Extreme Sicherheitsmaßnahmen
+	}
+
+	J1.25 Was ist die Herausforderung bei mobilen Kartenterminals?
+	{
+		- Viel zu kleiner Bildschirm gemäß Spec
+		- Zwischenspeicher zur Speicherung mobil erfasster Daten
+		- Daten werden für HBA des Arztes verschlüsselt gespeichert
+		- Kleiner integrierter Anwendungskonnektor mit Fachlogik
+	}
+
+	J1.26 Beschreibe kurz den Unterschied zwischen Deutschland und Dänemark in ihrer jeweiligen eHealth-Infrastruktur.
+	{
+		- In Deutschland sind noch keine Patientenanwendungen implementiert
+		- In Dänemark bereits eine sektorübergreifende lebenslange Elektronische Patientenakte
+		- Master Patient Index mit eindeutiger ID und Verweise auf Identifier von einzelnen Anwendungen und Datenquellen
+		- In Dänemark: Patient Empowerment  Zugriff auf die Gesunfheitsdaten durch ein Webportal
+		- Deutschland nutzt Hardware-Konnektor und Dänemark Software-„Konnektor“
+	}
+
+	J1.27 Wieso bietet die Dänische E-Health Infrastruktur, Medizinische Informationen (Wissen) und Foren für Patienten an?
+	{
+		Ein Patient/in kann nur dann effektiv eine EHealth Anwendung nutzen und verstehen, wenn er grundlegende (Laien-) Kenntnisse in Gesundheitssachen hat.
+	}
+
+	J1.28 In den USA wird NwHIN und CONNECT verwendet um die EH Infrastruktur bereit zu stellen. Erklären Sie diese Begriffe kurz.
+	{
+		- NwHIN: Nationwide Health Information Network ist ein Framework mit Standards, Policies und Specs für den Austausch von Gesundheitsdaten
+		- CONNECT: Software zur Kommunikation mit dem NwHIN
+	}
+
+	J1.29 Welche Versorgungsziele entstehen durch die schrittweise Einführung des E-Health Systems der USA?
+	{
+		- Improve Quality, Safety, Efficiency
+		- Engage Patients, Families
+		- Improve Care Coordination
+		- Improve Public & Population Health
+		- Ensure Privacy & Security for Personal Health Information
+	}
+
+	J1.30 Führen Sie an aus welchen Gründen die EHA Infrastruktur in Deutschland weniger schnell ausgebaut wird, verglichen mit den USA.
+	{
+		- Geringere Förderung im Vergleich zu den USA
+		- Keine Hardwarevorgaben in den USA
+		- Aufbau der Infrastruktur/Backbones in DE stellt Bottleneck für Erweiterungen der Infrastruktur dar
+	}
+
+	J1.31 Beschreiben Sie nach welchem Prinzip die US-amerikanische Regierung die E-Health Infrastruktur fördert.
+	{
+		Das Prinzip von Zuckerbrot und Peitsche (Bestrafung für Nicht-Umsetzen der Vorgaben. Aber Belohnung für frühes Einsteigen in das Progamm)
+	}
+
+	J1.32 Welche Vorteile bietet ein staatlich geregeltes Forum zum Austausch medizinischer Informationen?
+	{
+		Das Verhindern der Verbreitung von Falschinformationen. / Zensur von Falschinformationen.
+	}
+
+	J1.33 Welche Vorteile bietet der Einsatz einer Software als Netzwerkzugang zu dem Einsatz eines Hardware-Geräts?
+	{
+		- Die Standardisierung von Schnittstellen
+		- Die freie Wahlmöglichkeit der Hardware, auf dem die Software eingesetzt wird.
+		- Die Möglichkeit, eigene Software noch vor die standardisierte Software zu setzen.
+	}
+
+	J1.34 Nennen Sie 3 Möglichkeiten für den Austausch von Patientendaten und erläutern Sie diese
+	{
+		- Pull: Query / Respons
+		- Feeds: Publish / subscribe
+		- Push: Unsolicited Delivery (Unaufgefordert)
+	}
+
+	J1.35 Was versteht man unter "Information Blocking" in E-Health?
+	{
+		Bewusstes und unnötiges Behindern des Austausches und der Benutzung von Gesundheitsinformationen
+	}
+
+	J1.36 Wieso soll eine E-Health Infrastruktur medidzinische Informationen und Foren für Patienten anbieten ?
+	{
+    		- Ein/e Patient*in kann nur dann effektiv eine E-Health Anwendung verstehen und nutzen, wenn er grundlegende (Laien-) Kenntnisse in Gesundheitssachen (Medizin) hat
+		  -> „Health Literacy“, Gesundheitskompetenz. Diese kann erzeugt werden durch die Nutzung von z. B. Foren.
+	}
+
+	J1.37 Nennen sie 4 Anwendungen der dänischen E-Health Infastruktur
+	{
+		- Medizinisches Wissen
+		- Informationen über verfügbare Präventions- und Chroniker-Programme
+		- Eigene Präsenz im Portal
+		- Zugriff auf elektronische Patientenakten in Krankenhäusern und auf lebenslange sektorübergreifende Patientenakte
+	}
+}
+
+{
+#####################################
+###-Übernommene Fragen von Julian-###
+### -----------Part02-------------###
+#####################################
+
+	J2.1 Welche Methode wird von der Österreichischen ELGA für den Patienten verwendet. Nennen sie beide Verfahren diese Methode umzusetzen und beschreiben sie diese befriedigend
+	{
+		- Zwei-Faktor-Authentifizierung (Wissen & Besitz)
+		- Umsetzung per Bürgerkarte (Chipkarte + PIN) oder mittels Handysignatur
+	}
+
+	J2.2 Beschreiben sie den Ablauf des Rechtemanagements im elektronischen Patientendossier der Schweiz (Multilevel-Security)
+	{
+		Multilevel-Security:
+			1. Patient legt Vertraulichkeitsstufen für Dokumente fest (Classification)
+			2. Patient vergibt Zugriffstufen an Gesundheitsfachpersonal (Clearance)
+			3. Arzt kann auf Dokument zugreifen, wenn seine Clearance größer-gleich als die Classification ist
+	}
+
+	J2.3 Die Authentifizierung durch Chipkarte ist im Allgemeinen als sehr sicher anerkannt. Bewerten sie diese Aussage und geben sie die Gründe dafür an.
+	{
+		- Es wird kein Geheimnis übertragen, so dass ein Man-in-the-middle-Angriff nicht möglich ist.
+		- Die Chipkarte kann auch physisch nicht ausgelesen werden.
+		- Dadurch dass man zusätzlich einen PIN benötigt, ist auch ein Diebstahl der Chipkarte nicht kompromittierend.
+	}
+
+	J2.4 Erkläre an einem Beispiel den Unterschied zwischen Rollen-basierter und Gruppen-basierter Authentifizierung:
+	{
+		- Gruppenbasiert: man erhält die Rechte allein aufgrund der Zugehörigkeit zu einer Gruppe (z.B. Arzt)
+		- Rollenbasiert: man erhält die Rechte aufgrund einer Rolle, die man aktiv ausfüllt (z.B. diensthabender Stationsarzt)
+		- Rollenbasiert feingranularer und z.T. zeitlich begrenzter Zugriff (nur während des Dienstes)
+	}
+
+	J2.5 Erkläre den Unterschied zwischen Opt-in und Opt-out anhand der Österreichischen bzw. Schweizerischen eHealth-Infrastruktur:
+	{
+		- Opt-in: der Bürger muss aktiv zustimmen, damit er teilnimmt (Schweiz)
+		- Opt-out: jeder nimmt per default teil und muss aktiv wiedersprechen (Österreich)
+	}
+
+	J2.6 Warum ist die Integration eines Identity Providers bei der Authentifizierung in eine E-Health Anwendung empfehlenswert?
+	{
+		- Mehrere Methoden und Sicherheitsniveaus möglich
+		- Single Sign On Konzepte realisierbar
+		- Sicher und kostengünstig
+	}
+
+	J2.7 Wieso müssen abgelaufene/gesperrte Signaturzertifikate bis zu 30 Jahre beim OCSP-Responder prüfbar bleiben?
+	{
+		- In der Medizin müssen Dokumente bis zu 30 Jahre aufbewahrt werden; wenn ein Signaturzertifikat abgelaufen/gesperrt ist, muss dennoch die Gültigkeit zum Zeitpunkt der Signatur geprüft werden können
+		- Bei AUT-Zertifikaten muss nur zum Zeitpunkt der Authentisierung die Gültigkeit des Zertifikats ermittelt werden. Historische Infos sind irrelevant
+	}
+
+	J2.8 Wieso wird die Zwei-Faktor-Authentifizierung in den USA nicht eingesetzt?
+	{
+		Da dort die Krankenhäuser ihre Qualität aufgrund von Zugriffsanzahlen beweisen müssen, wodurch jeder Zugriff so einfach wie möglich gehalten wird. Dies geschieht zu Lasten der Sicherheit
+	}
+
+	J2.9 Warum erfolgt die sichere Schlüsselerzeugung der eGK auf einem HSM und nicht wie beim HBA auf der Chipkarte selbst?
+	{
+		Die lange Dauer wäre unpraktikabel
+	}
+
+	J2.10 Wie lange bleiben abgelaufene/gesperrte Signatorzertifikate beim OCSP-Responder abrufbar?
+	{
+		30 Jahre
+	}
+
+	J2.11 Welches Verfahren ist für die Zugriffskontrolle der deutschen Telematik-Infrastruktur geplant?
+	Beschreiben Sie die grundlegende Funktionsweise und legen Sie dar, warum dieses Verfahren besonders sicher ist!
+	{
+		- Kryptographisch Unterstützte Zugriffskontrolle
+		- Schutz der Dateien basiert nicht ausschließlich auf Software, da diese niemals 100% fehlerfrei ist. Verschlüsselung durch mathematische Verfahren und die Nutzung von Hardware (HSM, Chipkarte) sorgt für einen guten Dateischutz, da die Schlüssel aus der Chipkarte nicht ausgelesen werden können.
+	}
+
+	J2.12 Was versteht man unter einem Umschlüsselungsdienst?
+	{
+		-> Datenerhalt-Konzept, damit Patientendaten auch bei Verlust des privaten Schlüssels des Benutzers (eGK) zugreifbar bleiben und nicht verloren gehen
+			-> Gesundheitsdaten werden hybrid mit einem eGK-Schlüssel und zusätzlich mit einem Datenerhalt-Schlüssel verschlüsselt
+		-> bei Umschlüsselung:
+			-> Nutzer erhält einen Aktivierungsschlüssel per Post
+				-> Patient muss selbst etwas tun
+			-> privater Datenerhalt-Schlüssel wird mit dem Aktivierungsschlüssel und mit dem HSM-Schlüssel des Umschlüsselungsdienstes verschlüsselt
+				-> Schlüssel kann nur im HSM entschlüsselt werden
+	}
+
+	J2.13 Wie wird der Versicherungsnachweis mit der eGK umgesetzt und wie funktioniert dieser?
+	{
+		-> Update Flag Service (UFS) der Krankenkassen / Telematik-Infrastruktur
+			-> prüft, ob sich Stammdaten eines Patienten geändert haben
+		-> es wird online nachgefragt, ob Aktualisierungen für die eGK verfügbar sind
+			-> wenn ja: Verbindung zum Versichertenstammdaten-Dienst
+				-> kryptographisch gesicherte Aktualisierung des Datensatzes
+				-> Erstellung einer elektronsichen Quittung vom VSDM für die Abrechnung beim Arzt
+			-> wenn nein: Erstellung einer elektronischen Quittung vom UFS für die Abrechnung beim Arzt unter Verwendung der Versichertenstammdaten aus der eGK
+	}
+
+	J2.14 Nennen Sie 3 Beispiele für administrative Prozesse im Krankenhaus in Deutschland und erklären Sie diese kurz. Beurteilen Sie deren Datensicherheit.
+	{
+		- Krankenschein:
+			* Block
+			* Arzt dokumentiert Maßnahmen zur Abrechnung mit der KV
+			-> Nicht sicher, da Daten frei zu lesen auf dem Krankenschein
+		- Krankenversichertenkarte
+			* Speicherkarte mit Daten der Kasse/Patienten, KV-Nummer, Versichertenstatus, …
+			-> Speicher ungeschützt, Bei Verlust keine Sperre möglich und keine Datenänderung möglich
+		- Elektronische Gesundheitskarte
+			* Prozessorchipkarte mit (allen) Daten der KVK, medizinische Daten (NFDM, AMTS)
+		 	-> Speicher geschützt, Sperre möglich und Online-Aktualisierung der Stammdaten möglich
+
+		- ( eCard in Österreich)
+			* Prozessorchipkarte mit allen aufgedruckten Daten (nicht: Versichertenstatus)
+			* Daten online verfügbar und mit eCard aufrufbar  Schlüssel (auch für andere Online Anwendungen)
+	}
+
+	J2.15 Was ist der Update Flag Service?
+	{
+		Eine Online-Verbindung wird seitens der Arztpraxis zu einem Dienst der Krankenkassen/ der Telematik-Infrastruktur aufgebaut.
+	}
+
+	J2.16 Was ist eine Patientenquittung und nennen Sie zwei Probleme die sich daraus ergeben?
+	{
+		- Definition:
+			-> Der Arzt muss in seiner Abrechnung sehr genau aus einem Katalog von möglichen Leistungen (für gesetzlich Versicherte: EBM) angeben, welche Leistungen er erbracht hat. Der gesetzlich versicherte Patient sieht diese Abrechnungsinformationen i.d.R. nicht, kann sie aber anfordern = Patientenquittung
+		- Probleme:
+			* Elektronische Patientenquittung der TI: gibt es noch nicht
+			* Elektronische Patientenquittung der KK über Web-Portale: Medizinische Daten sind Daten mit sehr hohem Schutzbedarf  Sehr hohe Anforderungen für die Abwehr gegen den Identitätsdiebstahl
+	}
+
+	J2.17 Warum ist trotz der vielen Vorteile die elektronische Verordnung (eRezept) in Deutschland noch nicht eingeführt?
+	{
+		- Der Prozess der Papier-Verordnung in Deutschland ist (zu) gut: standardisierte Formulare, strukturierte Daten, ...Optimierungspotenzial geringer als z.B. in Amerika
+		- Quasi eRezept mit Papier als Datenträger
+	}
+
+	J2.18 Was ist eine Patientenquittung?
+	{
+		- Bei einem Arztbesuch werden Untersuchungen und Behandlungen durchgeführtArzt muss die Abrechnung dieser Leistungen genau protokollieren
+		- Der gesetzlich versicherte Patient sieht diese Abrechnungsinformationen i.d.R. nicht, kann sie aber anfordern = Patientenquittung
+	}
+
+	J2.19 Welche Implikationen hat eine eRezept-Anwendung offline im Vergleich zu einer online-Lösung?
+	{
+		- Bei einem Online-eRezept kann die Authentizität, Integrität und Verbindlichkeit des Datensatzes durch den Zugangsschutz des Fachdienstes gewährleistet werden.
+		- Der Server sorgt dafür, dass eRezepte nur nach Authentifizierung eingestellt werden und dann nicht mehr manipuliert werden können. Alle eRezepte auf dem Server sind gültig.
+		- Auf eine elektronische Signatur kann verzichtet werden, reine Webanwendung möglich.
+	}
+
+	J2.20 Wo und warum kommt die elektronische Verordnung schon zum Einsatz?
+	{
+		- wesentlicher Faktor für eine effektive Arzneimitteltherapiesicherheit im Krankenhaus
+	}
+
+	J2.21 Was ist der Vorteil der Anonymisierung der ärztlichen Identität bei Anfragen an das Versichertenstammdatenmanagement(VSDM)?
+	{
+		- Die Krankenkasse kann nicht aktiv in die Behandlung eingreifen
+		- Erst nach der Behandlung wird der Krankenkasse die Identität des Arztes bekannt
+			-> Bessere Versorgung des Patienten, wenig Macht für die Krankenkasse
+	}
+}
+
+
+
+
+{
+#####################################
+###-Übernommene Fragen von Julian-###
+### -----------Part03-------------###
+#####################################
+
+	J3.1 Was sind Notfallrelevante Informationen?
+	{
+		Diejenigen Informationen aus der Vorgeschichte des Patienten, die dem behandelnden Arzt zur Abwendung eines ungünstigen Krankheitsverlaufs sofort zugänglich sein müssen.
+	}
+
+	J3.2 Ist die Blutgruppe Teil des Notfalldatensatzes? Begründen Sie:
+	{
+		Bei der Blutgruppe handelt es sich um eine zusätzliche medizinische Information, die auf Wunsch des Patienten in den NFDS aufgenommen werden kann. Sie ist aus medizinischer Sicht nicht notwendig, da vor einer Transfusion grundsätzlich die Blutgruppe bestimmt werden muss.
+	}
+
+	J3.3 Vergleichen Sie den Notfalldatensatz auf Papier mit einer elektronischen Realisierung anhand der Vor-/Nachteile?
+	{
+		Vorteile NFDS auf Papier:
+			Sehr einfache Handhabung im Notfall
+
+		Nachteile:
+			Schwierige Pflege, wenn mehrere Ärzte beteiligt sind (manuelle Datenübertragung, Abtippen)
+			Schwierige Handhabung bei mehreren Versionen
+			Geringe Kapazität, falls Scheckkartenformat
+
+		Vorteile elektronisch:
+			Leichte Pflege bei Beteiligung mehrerer Ärzte
+			automatische Datenübertragung
+			Stets nur eine aktuelle Version vorhanden
+		Nachteile elektronisch:
+			Verfügbarkeit im Notfall
+
+	}
+
+	J3.4 Wie ist es möglich, dass die Notfalldaten per PIN geschützt werden können, aber dennoch im Notfall zur Verfügung stehen? Beschreibe den gesamten Verlauf inklusive der Prüfung, ob ein Notfall vorliegt:
+	{
+		Notfalldaten können immer mit einem HBA eines Arztes oder NotSan ohne Eingabe einer PIN (Card-to-Card) ausgelesen werden. Bei auslesen ohne PIN muss durch den Arzt angegeben werden, dass es sich um einen Notfall handelt. Diese Information wird geloggt. Durch PIN-Eingabe kann der Notfalldatensatz auch durch weitere medizinische Fachberufe genutzt werden.
+	}
+
+	J3.5 Warum sollte der Medikationsplan zusätzlich weiterhin auf Papier bereitgestellt werden?
+	{
+		Patienten sind alt, daher ist ein Umgang mit elektronischen Medien eher schwierig und wird nicht akzeptiert
+
+	}
+
+	J3.6 Nennen Sie eine pragmatische Definition dafür, wann ein medizinischer Notfall vorliegt und leiten sie daraus mögliche Einsatzszenarien für Notfalldatenmanagement ab.
+	{
+		Def.: Ein Notfall liegt dann vor, wenn der Patient oder der Arzt meinen, es ist ein Notfall Szenarien:
+		- Präklinische Patientenversorgung durch Rettungsdienst
+		- Ungeplante Aufnahme eines Patienten in der Notaufnahme eines Krankenhauses
+		- Ungeplante Notfallversorgung ambulant
+		Wichtig: An einem Notfall sind potenziell verschiedene Akteure (Arzt, Notfalldienst, ...) beteiligt  Akteure benötigen unterschiedliche notfallrelevante medizinische Informationen
+	}
+
+	J3.7 Sowohl der Medikationsplan als auch die Arzneimitteltherapiesicherheitsprüfung zielen im E-Health auf verbesserte Patientensicherheit ab. Erklären Sie den Unterschied zwischen diesen beiden Anwendungen.
+	{
+		- Unterschiedliche Ziele: Medikationsplan informiert Patienten, AMTS informiert Ärzt e und Apotheker
+		- Können als gemeinsame E-Health-Anwendung mit derselben Datenbasis (technisch) konzipiertwerdenUnterschiedlicheSichtaufdieDaten(mitunterschiedlichemFokus)
+		- Technischer Datensatz:
+		- Daten in der AMTS: Einnahmegrund nicht relevant, dafür ist Diagnose, Dosierung, individuelle Parameter (Laborwerte, Allergien, ...) fachlich sinnvoll
+		- Beides: nur Datenmanagement, Prüfung übernimmt ein weiterer Dienst (Medikamentenverträglichkeit, Medikamt-Diagnose-Verträglichkeit)
+		Daten nur für eMP relevant
+		Gemeinsame Daten
+		Daten nur für AMTS relevant
+	}
+
+	J3.8 Wo könnte ein Notfalldatensatz gespeichert werden? Nennen Sie vier Möglichkeiten und jeweils deren Vor- und Nachteile!
+	{
+		- Papier
+			+ Sehr einfache Handhabung im Notfall
+			- Schwierige Pflege, wenn mehrere Ärzte beteiligt sind
+			- Geringe Kapazität
+			- Schwierige Handhabung bei mehreren Versionen
+		- eGK-Chip
+			- nur 8.5 kB
+			+ Einfache Handhabung
+		- USB-Stick
+			- Schwierige Unterscheidung zwischen gutartigen und bösartigen USB-Sticks
+			-> möglicher Schaden für das PVS
+			- Sicherheitsfunktionen müssen zur Verfügung stehen
+			- Sicherheitszertifizierte USB-Sticks sind verfügbar, jedoch kann deren Echtheit nicht leicht erkannt werden
+		- Online
+			+ Sehr einfache Handhabung
+			- Server kann evtl. nicht erreichbar sein
+	}
+
+	J3.9 Warum ist der Medikationsplan nicht signiert?
+	{
+		- Keiner der Ärzte möchte für ALLE verschriebenen Medikamente verantwortlich gemacht werden
+	}
+
+	J3.10 Welche Anwendungsfälle gibt es für das Notfalldatenmanagement?
+	{
+		- Präklinische Patientenversorgung durch Rettungsdienst
+		- Ungeplante Aufnahme eines Patienten in der Notaufnahme eines Krankenhauses
+		- Ungeplante Notfallversorgung ambulant
+	}
+
+	J3.11 Welche Teile des Notfalldatensatzes werden vom Arzt signiert, nachdem dieser Änderungen eingeführt hat?
+	{
+		Der Notfalldatensatz wird immer als kompletter Block ausgelesen und signiert. Es ist nicht möglich, nur einzelne Teile des Datensatzes zu signieren.
+	}
+
+	J3.12 Führt das Arzneimitteltherapiesicherheitsprüfungsprojekt der Gematik die Prüfung selbst durch?
+	{
+		Nein, die Prüfung wird in einer anderen Anwendung durchgeführt, welche sich auf dem PVS, KIS oder Apotheken-Informationssystem befindet.
+	}
+
+	J3.13 Weshalb sollten notfallrelevante Diagnosen in Klartext-Form gespeichert werden?
+	{
+		- weniger Verwechslungsgefahr als bei Codierung
+	}
+
+	J3.14 Weshalb eignen sich Barcodes besonders gut f¸r mHealth-Anwendungen?
+	{
+		- Maschinenlesbarkeit erleichtert Pflege (kein erneutes Abtippen) und ermˆglicht weitere Nutzungsszenarien (z.B. zur Information des Arztes / Apothekers, welche die Informationen z.B. f¸r AMTS-Pr¸fungen verwenden kˆnnen)
+		- Kodierte Informationen
+		- Barrierefreiheit (blinde Menschen kˆnnen Barcodes scannen und vorlesen lassen)
+	}
+
+	J3.15 Was ist der Vorteil des Circle of Trust von epSOS und wie wurde er realisiert?
+	{
+		Realisierung:
+			- realisiert mit NCPs (National Contact Points)
+			- gegenseitiges Vertrauen auf Augenhöhe, ohne weitere, darüberliegende Struktur
+
+		Vorteil:
+			- Übermittlung von Daten über Ländergrenzen hinweg mit hohem Vertrauen in die  Richtigkeit der Daten
+	}
+
+	J3.16 Was sind die Ziele der elektronischen Patientenakte?
+	{
+		- Information des Arztes bei nachfolgenden Behandlungen
+		- Unterstützung der Zusammenarbeit, auch einrichtungsübergreifend
+		- Einrichtungsübergreifende Suche nach Informationen in Akten
+	}
+
+	J3.17 Warum ist eine elektronische Patientenakte wichtig?
+	{
+		- damals waren Menschen nicht so mobil wie heute
+			-> EIN Hausarzt hatte Gesamtübersicht
+		- mittlerweile sind Arztwechsel Normalität
+	}
+
+	J3.18 Welche Rollen gibt es bei der EFA (Elektronische Fallakte)?
+	{
+		- Fallaktenmanager
+		- Patient
+		- EFA-Teilnehmer
+		- EFA-Peer (EFA-Provider)
+	}
+
+	J3.19 Was versteht man unter Aktenmoderation, was unter Aktenführung. Welche Möglichkeiten gibt es für Patientenmoderierte Akten?
+	{
+		Aktenmoderation: wer kontrolliert, was reingeschrieben wird
+		Aktenführung: wer darf hineinschreiben
+		Möglichkeiten: Moderation nach festen Policies; im Vorfeld für jedes Dokument oder Bündel; bei Bedarf
+	}
+
+	J3.20 Wozu dient die EFA? Wer sind die Teilnehmer? Wie ist die EFA 2.0 technisch aufgebaut?
+	{
+		Behandlungsdokumentation, beschränkt auf einen einzelnen medizinischen Behandlungsfall Bereitstellung für alle Beteiligten, Ärzte, etc.
+		Teilnehmer: behandelnde Ärzte und Hilfspersonal
+		Aufbau: dezentrale Datenspeicherung, strukturiertes Inhaltsverzeichnis, Ende-zu-Ende Vertraulichkeit und Integrität, Logging, Unterteilung in Partitionen und Datenobjekte
+	}
+
+	J3.21 Welches IHE-Profil kommt bei der EFA zum Einsatz? Kann die EFA die Primärdokumentation des Arztes ersetzen?
+	{
+		IHE-XDS
+		Nein, weil nur strukturiertes Inhaltsverzeichnis
+	}
+
+	J3.22 Was ist ein Master Patient Index (MPI)? Wozu wird dieser in der eEPA benötigt?
+	{
+		Ein Mapping einrichtungsinterner PatIDs auf einen MasterID, um Schranken zu überwinden
+	}
+
+	J3.23 Max Müller hat in der Universitätsklinik Regensburg die PatID 01234567 und in der Klinik Barmherzige Brüder 9876543. In der Klinik St. Josef sollen nun die eEPA von Max Müller abgerufen werden. Wie ist es technisch möglich, alle Daten des Patienten der verschiedenen Kliniken zu finden? Erkläre das Prinzip.
+	{
+		Über das IHE Profil IHE-PIX, welches einen Master Patient Index umsetzt
+		Die Identifikation eines Patienten erfolgt über die IHE-PDQ
+		Bei mehreren MPIs wird noch ein IHE-XCPD Cross Community Patient Discovery benötigt
+	}
+
+	J3.24 Nenne drei Herausforderungen des grenzüberschreitenden Patient Summary.
+	{
+		Unterschiedliche Rechtslage (bzgl. Nachweispflich etc.)
+		Unterschiedliche Sprachen
+		Unterschiedliche Systeme und Standards
+	}
+
+	J3.25 Ein Merkmal der EFA ist die dezentrale Datenspeicherung, jedoch gibt es auf dem EFA-Provider das EFA-Speichersystem. Warum?
+	{
+		Es benötigt ein zentrales Repository (IHE-XDS), damit der Arzt die Dokumente finden kann
+		Der Zugriff des Arztes auf die Dokumente muss geloggt werden
+	}
+
+	J3.26 Welche vier Status durchläuft eine EFA während ihres Lebens? Welche dieser Status sind umkehrbar?
+	{
+		•    Offen -> Aktive Nutzung durch EFA-Teilnehmer
+		•    Gesperrt
+		•    6 Monate nach letztem Zugriff, oder Tod des Patienten
+		•    Zugriff nur durch Fallmanager möglich
+		•    Verbleib in gesperrtem Zustand für weitere 6 Monate
+		•    Verfallen -> Kein Zugriff, Akte kann nur noch archiviert werden
+		•    Langzeitarchiviert (10-30 Jahre)
+		•    Gesperrt (Offen)
+	}
+
+	J3.27 Wozu dient die Patient Summary im epSOS und welche Herausforderungen gibt es?
+	{
+		- Kurzakte mit den wichtigsten medizinischen Informationen über den Patienten
+		- Ziel: medizinische Informationen für den Notfall oder Arztbesuch in einem anderen Land, als
+		das Residenzland des Patienten
+		- KeinezentraleSpeicherungineinerEU-DatenbankwirdvomHeimatlandzumZiellandbei
+		Bedarf abgerufen und übertragen
+		- Herausforderungen:grenzüberschreitendePatientenidentifikation-undAutorisierungvon
+		Arzt und Patient, EU-weite einheitliche und eindeutige Semantik, grenzüberschreitende Interoperabilität, unterschiedliche Rechtssysteme. ...
+	}
+
+	J3.28 Wie ist die Datenspeicherung der Elektronische Fallakte organisiert?
+	{
+		Zentrale speicherung der Metadaten, dezentrale Speicherung der Akte und Daten selbst
+	}
+
+	J3.29 Aus welchem Grund gibt es ein eigenes Speichersystem für die Dateien der Ärzte und des Krankenhauses, in die diese hochgeladen werden sollen?
+	{
+		Weil die Dateien, die durch das EFA referenziert werden, in dem XDS-Document Repository gespeichert werden müssen. Daher werden diese in dieses format konvertiert und gespeichert.
+	}
+
+	J3.30 Nennen Sie 5 Merkmale der EFA2.0
+	{
+		- Keine zentrale Datenspeicherung, Daten werden weiterhin im Krankenhaus bzw. bei den angebundenen Ärzten gespeichert
+		- EFA ist (NUR) ein strukturiertes Inhaltsverzeichnis aller zum Fall gehörenden Dokumente (Mit der Möglichkeit des Abrufs dieser Dokumente)
+		- Arztgeführt und arzt(teil)moderiert. Patientenmoderation beschränkt sich darauf, den Kreis der Berechtigten festzulegen (elektronisch oder schriftlich)
+		- Der Patient hat KEINEN elektronischen Zugriff auf die EFA
+		- Alles oder nichts Prinzip (Es können keine einzelnen Dokumente ausgeschlossenen werden)
+			=> Gewährleistung, dass aus ärztlicher Sicht die Akte vollständig ist (falls sie existiert)
+	}
+
+	J3.31 Wie wird die semantische Interoperabilität in epSOS umgesetzt?
+	{
+		- Es existiert ein Mappingsystem zwischen dein verschiedenen Kodierungen (HL7-CDA, ICD, LOINC, ...)
+	}
+}
+
+{
+	F1: Zählen Sie die wesentlichen Bestandteile von E-Health auf. e-...
+	{
+		- eCare
+		- eAdministartion
+		- ePrevention
+		- ePublicHealth
+		- eResearch
+		- eLearning
+	}
+
+	F2: E-Health umfasst nicht die gesamte medizinische Informatik. Was zählt beispielsweise nicht dazu?
+	{
+		- Medizinische Dokumentation
+		- (Einrichtungsinterne) medizinische Informationssysteme
+		- Medizinische Bildverarbeitung
+		- Software für Medical Device
+	}
+
+	F3: Was liegt im Fokus von E-Health?
+	{
+		- Anwendung der med. Info. in der mittel- und unmittelbaren Patientenversorgung
+		- Vernetzung verschiedener Einrichtungen im Gesundheitswesen
+	}
+
+
+	F4: Nennen Sie Beispiele für eCare. eCare umfasst unter anderem:
+	{
+		- Telemedizinische Versorgung
+		- Notfalldatensatz
+		- Medikationsplan, AMTS
+		- ePatientenakte, eFallakte
+		- jegliche Art der sektorübergreifenden Kommunikation
+			-> Zur effektiveren Behandlung des Patienten
+		- allgemein elektronische Bereitstellung von Informationen
+	}
+
+	F5: Was versteht man unter "Consumer HEalth Informatics"?
+	{
+		Erbringung von Gesundheitsdiensten mit Hilfe der Informatik direkt an Patienten oder gesunden Menschen
+		  -> mHealth, also Apps in der Medizin als mögliches werkzeug
+	}
+
+	F6: Was ist der Unterschied zwischen Telemedizinischer Versorgung und Telemonitoring?
+	{
+		Es geht allgemein darum dem Patienten Zugang zu geeigneter medizinischer Versorgung zu ermöglichen
+
+		- Telemedizin: Wenn Ort das Problem ist
+			-> ländliche Regionen
+			-> z.B. Online Arztkonsultation
+
+		- Telemonitoring: Wenn Zeit das Problem ist
+			-> in der Nacht
+			-> z.B. Herzmonitor über mehrere Tage zur späteren Auswertung
+	}
+
+	F7: Was nützt eCare genau?
+	{
+		- Besseren Zugang zu med. Versorgung schaffen
+		- Behebung von Informationsdefiziten
+		- Stärkung der Zusammenarbeit zwischen Ärzten
+		- Patient Empowerment
+		- Neue Versorgungsformen -> bessere, effektivere Versorgung
+		- Kostensenkung durch effektivere Versorgung
+
+		-> Insgesamt bessere med. Versorgung/Behandlung
+	}
+
+	F8: Erklären Sie den Begriff "Patient Empowerment".
+	{
+		- mehr Information und Verantwortung für den Patienten
+		- bessere und aktivere Einbeziehung in seine Betreuung/Therapie
+
+		-> Med. Daten gehören dem Patienten
+		-> Patient steuert Daten zu eAkten bei
+	}
+
+	F9: Nennen Sie die Ziele von eCare.
+	{
+		- Den Patienten den Zugang zu geeigneten med. Maßnahmen eröffnen, wo diese heute nicht verfügbar sind
+			*	Telemonitoring
+			*	Telemedizinische Versorgung
+		- Behebung von Informationsdefiziten in der Versorgung
+		- Zusammenarbeit der Ärzte und Gesundheitsfachberufe stärken bei gemeinschaftlicher Behandlung
+		- Patient Empowerment, Patient in Behandlung besser einbinden
+		- Neue Dienste und Versorgungsformen, Consumer Health Informatics
+		- Effektivität der Versorgung steigern, Kostensenkung
+	}
+
+	F10: Nennen Sie beispielhafte Bestandteile der eAdministration.
+	{
+		- Nachweis der Berechtigung für med. Versorgung -> gültiger Versicherungsnachweis
+		- Verwaltung von Stammdaten der KV
+		- eRezept
+		- eÜberweisung
+		- eKrankhauseinweisung
+		- Patientenquittung
+		- online Terminvergabe
+		- Einreichen von Rechnungen bei der priv. KV
+	}
+
+	F11: Was ist ePrevention?
+	{
+		Leistungen und Dienste, die Menschen helfen gesund zu bleiben
+	}
+
+	F12: Nennen Sie Beispiele für ePrevention.
+	{
+		- Ambient Assisted Living -> Med. Assistenzsysteme für ältere Menschen
+		- Consumer Health Informatics -> Gesundheitsinformationen für Patienten
+		- mHealth -> Fitness-Apps (Quantified-Self)
+	}
+
+	F13: Was versteht man unter "Ambient Assisted Living"?
+	{
+		- Systeme zur täglichen Unterstützung für ältere Menschen
+		- zur Erhaltung ihrer Gesundheit
+			-> z.B. Erkennen bedrohlicher Zustände (Stürze, Bewusstlosigkeit)
+	}
+
+	F14: Was ist eResearch?
+	{
+		Unterstützung der med. Forschung durch med. Informatik
+	}
+
+	F15: Nennen Sie Beispiele für eResearch.
+	{
+		- "Secondary Use" von Patientendaten
+		- eEinwilligung für med. Studien
+		- elektr. Unterstützung des Datenschutzes bei Studien
+			-> Anonymisierung, Pseudonymisierung
+		- BigData
+		- Künstliche Intelligenz
+		- Unterstützung bei der Translation von Wissen
+			-> Corona Daten/Infos sharen zwischen Grundlagenforschung <-> Klinischen Studien <-> Regelversorgung
+	}
+
+	F16: Nenne Sie Beispiele für eLearning im med. Bereich.
+	{
+		- Ausbildung, Weiterbildung, Fortbildung in der MEdizin
+		- Auch in anderen Gesundheitsberufen
+	}
+
+	F17: Was versteht man unter ePublicHealth?
+	{
+		Unterstützung der öffentlichen Gesundheitsversorgung der Bevölkerung
+	}
+
+	F18: Nennen Sie Beispiele für ePublicHealth.
+	{
+		- Meldung von Infektionskrankheiten
+			-> t.B. Prävention von Corona-Hotspots
+		- Koordination von Maßnahmen
+			-> z.B. Lockdown
+		- Unterstützung bei Versorgungsforschung
+	}
+
+	F19: Nennen Sie 2 Bereichsübergreifende Themen-
+	{
+		- Consumer Health Informatics
+		- mHealth
+	}
+
+	F20: Inwiefern ist E-Health kein Selbstzweck?
+	{
+		- e-Health besteht nicht für sich selbst
+		- e-Health unterstützt bestehende med. Bereiche
+		- Medizin und Menschen stehen im Mittelpunkt
+	}
+
+	F21: Nennen sie allgemeine Ziele von E-Health.
+	{
+		- Bessere Medizin
+		- Effektiveres Gesundheitswesen
+		- Effektivere Verwaltung
+		- Bessere Patientenversorgung, mehr Qualität
+		- Mehr Patientensicherheit
+		- Förderung und Erhalt der Gesundheit des einzelnen Menschen und der gesamten Bevölkerung
+		- Bessere und effektivere medizinische Forschung
+	}
+}
+
+
+
+
+
+{
+	F22: Was ist die Patientenmobilitätsrichtlinie?
+	{
+		- Sie legt Regelungen für die grenzüberschreitende med. Versorgung fest
+		- Ohne sie sind die Gesundheitssysteme inkompatibel
+		- Sichert bestimmte Anwendungen innerhalb der EU:
+			* Versicherungsnachweis -> Anerkennung im Ausland
+			* eRezept -> Auch im Ausland Versorgt werden
+			* PatientSummary -> Datensatz mit wichtisgtens med. Daten eines Patienten
+		- Ziel: System- und Sprachbarrieren überwinden
+	}
+
+	F23: Wieso bietet die Dänische E-Health Infrastruktur, Medizinische Informationen (Wissen) und Foren für Patienten an?
+	{
+		- Steigerung der „Health Literacy“, Gesundheitskompetenz
+		- Patient muss informiert sein, um E-Health Anwendungen nutzen zu können
+		- E-Health basiert auf grundlegender Gesundheitskompetenz der Patienten
+	}
+
+	F24: Was versteht man unter "Health Literacy"?
+	{
+		Gesundheitskompetenz des Patienten
+			-> Patient benötigt sie zur korrekten Verwendung von E-Health Anwendungen
+	}
+
+	F26: Erklären Sie das Meaningful Use Konzept der USA.
+	{
+		- Staatliches Programm zur Förderung von elektronischen Patientenakten und zur Vernetzung / Austausch von Gesundheitsdaten
+		- Zuckerbrot und Peitsche
+			-> finanz. Belohnung von früher Teilnahme/Umstellung
+			-> finanz. Bestrafung von Verzug/Verweigerung
+		- Durchführung in 3 Stages (zeitlich gestaffelte Meilensteine):
+			1. Data Capture and Sharing
+			2. Advanced Clinical Processes
+			3. Improved Outcomes
+	}
+
+	F27: Nennen Sie Ziele des USA Konzeptes "Meaningful Use".
+	{
+		- Improve Quality, Safety, Efficiency
+		- Engage Patients & Families
+		- Improve Care Cooordination
+		- Improve Public & Population Helath
+		- Ensure Privacy & Security for Personal Health Information
+	}
+
+	F28: Was wird im "Meaningful Use" konzept in Stage 1 umgesetzt?
+	{
+		- eRezept
+		- Prüfung von Medikamenteninteraktion/Allergien
+		- CDS (Clinical Decision Support)
+		- Implemntierung von Datenschutz und IT-Security Maßnahmen
+		- Patienten bekommen elktr. Kopien ihrer Patientenakten -> Blue Button Initiative
+		- Allgemein elektronisch Übermittlung von Daten
+		- QM-Management -> Medicaid
+	}
+
+	F29: Was unterscheidet Stage 2 von Stage 1 im "Meaningful Use" Konzept?
+	{
+		- Wie Stage 1 nur intensiver
+		- Weitere Verbesserungen
+		- Intensivierung der Umsetzung de Ziele
+	}
+
+	F30: Was ist das E-Health Exchange (früher: Nationalwide Health Information Network)?
+	{
+		- Framework mit Standards, Policies udn Specs für den Austausch von Gesundheitsdaten
+		- NwHIN Exchange: Austausch nach Art der IHE-XDS-Profilfamilie
+			-> Speichern und Abrufen von Informationen (z.B. Patientenakte)
+		- NwHIN Direct: Direkter Versand von Informationen (abgesicherte Email)
+	}
+
+	F31: Wie kann man sich in den USA mit dem NwHIN verbinden? Erläutern Sie.
+	{
+		- Sichere Verbindung zu NwHIN über die Software "CONNECT"
+			-> Wie Konnektor in Deutschland
+		- Unterstützt standardiserten Datenaustausch über SOA/ SOAP
+		- Implementiert Audit-Loggin (IHE-ATNA)
+		- Open Source & zertifiziert -> Anders als in Deutschland
+		- Zielgruppe ist nicht der Arzt, sondern die Health-IT-Industrie
+			-> Leichte Zugänglichkeit
+			-> Besserer Markt
+	}
+
+	F32: Das Konzept "Meaningful Use" ist abgelaufen. Es gibt allerdings Weiterentwicklungen. Welche sind diese? Erklären Sie.
+	{
+		- MACRA (Medicare Access and CHIP Reauthorization Act)
+			* Qualitätsbasierte Vergütung
+			* Teilweise Meaningful Use in vereinfachter Form
+			* Belohnung der Nutzung zerti. Electronic Health Records
+			* Belohnung des elektr. Austausches klinischer Daten mit anderen Ärzten
+		- Neue Anforderungen wie Security Risk Analysis, eRezepte oder Send/Request Summary of Care
+		- Gesetzliche Aktionen zur Verhinderung von "Information Blocking"
+	}
+
+	F33: Vergleichen Sie die Deutsche und die US E-health Infrastruktur
+	{
+		Deutschland:
+			- Bau einer physische Infrastruktur
+			- Netzwerk-Backbone und zentrale Dienste
+			- Dezentral über:
+				* Chipkarten
+				* Konnektoren
+				* Kartenterminals
+			- Wenig Wirtschaftliche Anreize für Ärzte und KHs
+			- Desinteresse der Industrie -> Ausschreibung für Entwicklung
+
+		USA:
+			- Nur Vorgabe von Specs -> Standards
+			- Keine Hardware-Vorgaben, wie Konnector
+			- Keine physiche Infrastruktur -> Soll der Markt selber regeln
+			- Zertifizierung von Software
+			- Software-Konnektor (!Open Source)
+			- Starke wirtschaftliche Anreize
+			- Klare Versorgungsziele
+			- Standards für Interoperabilität vorgeben
+				-> Sodass lokale Netzwerke global vernetzt werden
+	}
+
+	F34: Welcher Missstand besteht in Deutschland und ist Motivation für eine landesweite E-Health Infrastruktur?
+	{
+		- Defizite in der Vernetzung, Kommunikation und Zusammenarbeit im Gesundheitswesen
+			-> Schaffen einer landesweiten Interoperabilität
+	}
+
+	F35: Welches Ereignis gilt als Auslöser das GKV-Modernisierungsgesetz? Erkläre was passiert ist.
+	{
+		- "Lipobay Skandal"
+			-> Nierenversagen durch ungünstige Kombination von Medikamenten
+			-> verordnende Ärzte wussten jeweils nicht von der anderen Verordnung
+
+		-> Eingestehen, dass Informationsdefizit besteht und maschienll angegangen werden muss
+	}
+
+	F36: Was sind die Ziele des GKV-Modernisierungsgesetzes?
+	{
+		Wirtschaftlichkeit, Qualität und Transparenz steigern durch
+		- Vernetzung des deutschen Gesundheitswesens
+		- Schaffung einer Infrastruktur
+		- Sinnvolle, nutzbringende E-Health Anwendungen
+	}
+
+	F37: Führte das GKV Modernisierungsgesetz (2003) zu großen Änderungen?
+	{
+		- Nein, erst nach 15 Jahren und 4 weiteren Gesetzen wurden die Änderungen wirklich umgesetzt
+		- Bestrafung/ Belohnung von Gesetzeinhaltung/-verweigerung
+	}
+
+	F38: Wer baut die TI?
+	{
+		- Gematik GmbH
+		- Gesellschafter:
+			* Ärzte			-> Bundesärztekammer, Kassenärztliche Bundesvereinigung
+			* Zahnärzte		-> BZÄK, KZBV
+			* Apotheker		-> ABDA, DAV
+			* Krankenhäuser	-> GKV-Spitzenverband (hatten 50% der Stimmen)
+				-> Jetzt hat 51% durch Gesetz die BMG (Bundesministerium für Gesundheit)
+
+		! Besonderheit: Gesellschafter der Gematik begleiten auch technisch die Entwicklung der TI
+			-> Irrsinnig!
+	}
+
+	F39: Was versteht man unter "landesweiter Interoperabilität"?
+	{
+		Für eHealth Anwendungen muss es letztendlich egal sein, welche Software
+		oder App und welchen Anbieter der Arzt, das Krankenhaus oder der Patient hat.
+		Es muss so selbstverständlich klappen, wie telefonieren (= man kann jemanden
+		problemlos anrufen, egal welches Endgerät oder Provider man hat).
+	}
+
+	F40: Welche 2 Möglichkeiten gibt es eine landesweite E-health Infrastruktur aufzubauen? Nenne!
+	{
+		1. Top-Down
+		2. Bottom-Up
+	}
+
+	F41: Was versteht man unter dem "Top-Down" Ansatz?
+	{
+		- Gesetzgeber bestimmt
+		- Industrie baut
+		- Ärzte/ Apothekter/ Patienten (müssen) machen/ benutzen
+	}
+
+	F42: Was versteht man unter dem "Bottom-Up" Ansatz?
+	{
+		- Einzelne Ärzte/ Apotheker/ usw. haben eine Idee
+		- Ein Krankenhaus kommt dazu
+		- Sie vernetzen sich und starten eine E-Health Anwendung
+		- Oder Software-hersteller bietet eine Anwendung an
+		- Mehr und mehr Ärzte kommen hinzu
+
+			-> Eine Insel entsteht
+			-> Enscheidender Punkt: Gelingt die Integration mit weiteren Inseln
+	}
+
+	F43: Nennen Sie Vor- und Nachteile des "Top-Down" Ansatzes.
+	{
+		+ Flächendeckende Vernetzung nach de-facto Standard
+		+ Interoperabilität der entwickelten Anwendung
+		+ Kontrollierte Sicherheit
+		+ Relevanter Markt für E-Health Hersteller -> Hat sich noch nicht bewahrheitet
+
+		- "Zwangsinfrastruktur" -> Erzeugt Widerstände
+		- Die entwickelten Lösungen müssen nicht zwingend die Besten sein
+	}
+
+	F44: Wie wird eine kontrollierte Sicherheit in der TI gewährleistet?
+	{
+		- Vorgaben und Kontrolle durch BSI
+		- Prüfung durch die Gesellschafter der Gematik
+		- Definiertes Sicherheitsniveau
+			-> Spezifikationen werden veröffentlicht -> Transparenz
+			-> Security by Design
+			-> Privacy by Design
+			-> Also nicht durch Geheimhaltung, sondern durch bloßes Design
+	}
+
+	F45: Nennen Sie Vor- und Nachteile des "Bottom-Up" Ansatzes.
+	{
+		+ Freiwillige Lösungen -> Bessere Motivation
+		+ Theoretisch besserer Wettbewerb
+			-> Technische Abschottung verhindert das aber oft
+
+		- Insellösungen oft inkompatibel
+		- Technische Abschottung von Anwendungen
+		- Keine flächendeckende Vernetzung
+		- Fehlende Sicherheitsanforderungen/ -architektur?
+			-> Da teilweise von kleinen Firmen hergestellt (Sicherheit kostet)
+		- Wahrscheinlichkeit für einen patienten, dass sein Arzt eine Anwendung unterstützt, ist sehr klein
+			-> Zerstückelung des Marktes
+	}
+
+	F46: Warum gab es in einem Land noch nie eine flächendeckende, interoperable, sichere, landesweite eHealth Infrastruktur nach dem Bottom-Up Ansatz?
+	{
+			- Sicherheit und Datenschutz kosten
+				-> macht keiner freiwillig
+			- Interoperabilität läuft gegen viele Geschäftsinteressen
+				-> Verteidigung von Marktanteilen
+			- Viele Ärzte sehen keinen Grund sich zu vernetzen
+				-> Patientenbindung durch Abschottung
+				-> Angst vor Transparenz
+
+			-> Es braucht also Regulierung durch den Staat (!Sogar in den USA so)
+	}
+
+	F47: Welche Anwendungen sind in der TI gesetzlich festgeschrieben?
+	{
+		- VSDM
+		- eRezept, AU-Bescheinigung
+		- NFDM
+		- KIM (Kommunikation im Medizinwesen)
+		- eMedikationsplan & AMTS
+		- ePatientenakte
+			-> Patientenfach, Patientenquittung, Impfpass, Mutterpass, ...
+		- Organspendeerklärung
+		- Hinweise über Organspende, Patientenverfügung, Vorsorgevollmacht
+	}
+
+	F48: Aus welchen grundlegenden Architekturbestandteilen besteht die TI?
+	{
+		- Plattform
+		- Anwendung
+	}
+
+	F49: Was versteht man und der "Entkopplung von Plattform und Anwendungen" in der TI?
+	{
+		- Beliebige Anwendungen, die ins Architekturschema passen, können unterstützt werden, ohne Anpassung der Plattform
+			-> aber z.B. keine nicht nichrichten-basierte Kommunikation wie Videotelefonie oder  Anwednungen die eine Rest Schnittstelle nutzen
+			-> dann müsste man Netzwerkschnittstelle nutzen
+		- Gemeinsame Plattform-Dienste können unverändert von mehreren Anwendungen verwendet werden
+			-> z.B. Verschlüsselungsdienste
+		- Semantische Entkopplung (der Plattform ist egal, welche Informationen in der Anwendung ausgetauscht werden
+			-> Kontent ist egal
+		- Entkopplung von Maßnahmen der Informationssicherheit
+			-> Anwendung muss die Dienste zur Info.Sicherheit nich nutzen, sie kann
+			-> Plattfrom schreibt nicht vor, was zu nutzen ist
+			-> Das Gesetz vllt schon
+	}
+
+	F50: Beschreiben Sie die TI als Plattform.
+	{
+		- Service-orientierte Architektur (SOA)
+			* nachrichtenbasiert
+			* typischerweise Kommunikation aller Anwednungen über Intermediär (Broker)
+			* mehrere Services (Fachdienste, Unterstützungsdienste)
+		- Zentrales Netz
+			* VPN, MPLS-basiertes Backbone
+			* Sicherheitsgateways für Anbindung mit anderen Netzen
+		- Anbindung per "Konnektor"
+			-> Hardwaregerät
+	}
+
+	F51: Welche Zonen gibt es in der TI-Netzwerktopologie?
+	{
+		- Consumer Zone
+			-> Rechner der Arztpraxis
+		- Secure Consumer Zone
+			-> Anwendung auf dem Rechner in der Arztpraxis
+			-> Konnektor verbindet diese Zone mit der dezentralen TI-Plattform Zone
+		- TI-Plattform Zone dezentral
+			-> Konnektor
+			-> kartenterminal
+			-> Chipkarten
+		- TI-Plattform Zone zentral
+			-> zentrales Netz der TI
+		- Personal Zone
+			-> Frontends des Versicherten auf Geräten des versicherten
+			-> z.B. E-Health App
+		- Existing Application Zone
+			-> z.B. Datenbanken der Krankenkassen
+			-> oder andere Anwendungen externer Netze
+		- Provider Zone
+	}
+
+	F52: Zählen Sie die Paradigmen der TI auf. (Vllt sehr dumme Frage)
+	{
+		- TI ist ein geschlossenes Netz
+		- Alle Akteure und Geräte in der TI haben eine kryptographische Identität
+		- Ende-zu-Ende verschlüsselte Kommunikation
+		- Kommunikation is nachrichten-basiert (SOAP)
+		- Patientenindividuelle Verschlüsslung
+		- Online und Offline Speicherung von medizinischen Daten
+		- Card-to-Cart Authentifizierung
+		- Zwei Schlüssel Prinzip
+		- Logging zur Datenschutzkontrolle
+		- Technische Autorisierung (gesetzlich festgelegt)
+		- Für jede Datei auf einer Chipkarte sind Rechte festgelegt
+		- Online Aktualisierung von Chipkarten durch CAMS
+	}
+
+	F53: Inwiefern ist die TI ein geschlossenes Netz?
+	{
+		- Kein unkontrollierter Zugang zum Internet
+		- Zugang über Konnektoren
+		- Außenzugang der TI über:
+			* VPN-Konzentratoren
+			* Sicherheitsgateways/ proxies für externe Netze/ Anwendungen
+			* Internet über Sicherheitsgateways
+	}
+
+	F54: Wie ist die kryptographische Identität in der TI umgesetzt?
+	{
+		- i.d.R. in Form einer Chipkarte
+		- Gegenseitige krypt. Authentifizierung aller Akteure
+		- Sperrung einer krypt. Identität ist jederzeit möglich
+	}
+
+	F55: Wie wird verhindert, dass Daten durch MITM abgegeriffen werden können?
+	{
+		- Durch Ende-zu-Ende Verschlüsselung
+		- Daten werden vor Übertragung im Konnektor dezentral verschlüsselt
+		- Entschlüsselung im Empfängerkonnektor oder einer vertrauenswürdigen Ausführungsumgebung (VAU)
+		- Schlüsselmanagement jedoch zentral, insb. Verschlüsselungsdienste
+	}
+
+	F56: Was ist Card-to-Cart (C2C) Authentifizierung?
+	{
+		- Direkte Authentisierung zwischen 2 Chipkarten
+			-> mithilfe von Card Verifiable Certificates (CVC)
+		- Dadurch können bei der eGK Daten freigegeben werden können
+			-> z.B. für Lesen von Notfalldaten ohne PIN
+		- HBA oder SMC werden benötigt, um kryptographische Schlüssel zu aktivieren
+			-> Rollenbasierte Autorisierung
+			-> Daten/ Zugriff je nach Rolle
+		- Sperrung der CVCs auch für offline möglich
+			-> z.B. gestohlener HBA ungültig machen
+	}
+
+	F57: Welche Anwendungen nutzen online-Speicherung und welche offline?
+	{
+		online:
+			- ePatientenakte
+			- eRezept, AU-Bescheinigung
+		offline (keine langfristige zentrale Speicherung, dezentral auf der eGK, oder nur Datenübertragung):
+			- Notfalldaten
+			- KIM
+			- eMedikationsplan, AMTS
+		online & offline:
+			- Versichertenstammdaten
+	}
+
+	F58: Was ist das WZei-Schlüssel-Prinzip?
+	{
+		- Für jeden Datenzugriff müssen mindestens 2 Chipkarten zusammenarbeiten
+			1. eGK des Patienten
+			2. HBA oder Institutionskarte eines Leistungserbringers
+			-> Über Kartenterminal
+			-> Nicht zwangsweise gleichzeitig
+				-> Auch in Abwesenheit des Patienten berechtigt auf Daten zuzugreifen
+
+		- Ausnahme: Zugriff des Versicherten über mobile Geräte auf eigene Daten auch ohne Arzt
+	}
+
+	F59: Wie wird Datenschutzkontrolle in der Ti umgesetzt?
+	{
+		- Logging aller Zugriffe auf Daten und möglichst alle Zugriffsversuche
+		- Erst logen, dann zugreifen
+		- Laug auf eGK -> (50 Einträge Ringspeicher)
+		- Online Fachdienst regelt, falls Online-Anwendung
+	}
+
+	F60: Was gitb es über die technische Autorisierung zu wissen?
+	{
+		- vorgeschriebene PIN-Eingabe für alle freiwilligen Anwendungen
+			-> manche brauchen sogar zusätzlich C2C-Authentifizierung
+		- "Virtuelle" PINs für jede Anwendung
+			-> Multireferenz-PINs:
+				* Es gibt nur eine reale Karten-PIN der eGK
+					-> zeigt auf PIN.CH, hat aber eigene Security Status
+				* nach Pineingabe wird nur eine Anwendung freigegeben und nicht global alle
+		- Keien PIN-Eingabe für Notfalldaten
+	}
+
+	F61: Welche Funktionen hat ein Konnektor?
+	{
+		- Sichere Netzanbindung in die Telematik-Infrastruktur
+		- Anwendungsproxy / -server
+		- Anbindung und Steuerung der Kartenterminals
+		- Anwendungskonnektor
+		- Steuerung der Chipkarten
+		- Anbieten von Basisdiensten(Authentifizierung, Ver-/Entschlüsselung)
+		- Signaturanwendungskomponente
+		- Vermitteln einer sicheren Internetverbindung -> Sicherheitsgateway
+		- Verbindung zu mit der TI verbundenen Netzwerken (z.B. SNK)
+	}
+
+	F62: Inwiefern ist der Konnektor modular?
+	{
+		- Basisdienste und Anwendungen werden als Module angeboten
+		- Module können prinzipiell ersetzt werden
+			-> Möglichkeit Konnektor zu erweitern
+		- Jede Anwendung hat im Konnektor sein eigenes Fachmodul
+			-> implementiert Fachlogik der Anwendung
+		-> SOAP Aufruf an Konnektor -> Modul nutzt Basisdienste
+		- Idee: Basisdienste werden verwendet um Module zu "scripten"
+			-> mit anwendungsspez. Parametern und Logik
+	}
+
+	F63: Wird die Modularität des Konnectors wirklich so umgesetzt wioe geplant?
+	{
+		- Noch nicht
+		- oft monolithische Struktur und hardcoded
+		 -> Aber später sollen sie nachträglich modularisiert werden
+		 -> Vllt wird es aber auch ein Software-Konnektor wie in USA
+	}
+
+	F64: Was ist die eGK? Nennen Sie ein paar Eigenschaften.
+	{
+		- elektr. Gesundheitskarte
+		- mit Foto
+		- wird von Krankenkassen ausgegeben
+		- PIN(6-stellig)
+		- 96-128kB geschützter Speicher
+		- sicherheitszertifizierter Chip und Betreibssystem
+		- verfügt über:
+			* nicht-auslesbare private Schlüssel
+			* öffentliche Zertifikate(CVC und X.509-Zertifikate) zun Nachweis der Echtheit der Karte
+			* technische Signatur/Authentifizierung
+			* Ver- und Entschlüsselung von Daten
+			* Root-CV-Zertifikate zur Validierung der C2C-Authentifizierung eines HBA/SMC oder CAMS
+			* NFC-Schnittstelle
+			* qualifizierte elektr. Signatur
+	}
+
+	F65: Was sind HBA und SMC? Und wofür werden Sie verwendet?
+	{
+		- Institutionskarten
+		- HBA -> Heilberufsausweis
+		- SMC -> Secure Module Card
+		- Signaturkarte
+		- Authentifzierung und Autorisierung in TI-Netzwerk oder gegenüber anderen Ausweisen
+
+	}
+
+	F66: Eigenschaften von HBA und SMC?
+	{
+		- 2 PINs (6-stellig) -> für Signatur und alle anderen Funktionen
+			-> 1 PUK (8-stellig)
+		- sicherheitszertifizierter Chip und Betriebssystem
+		- zusätzliche NFC/RFID Schnittstelle
+		- X.509 Public Key Zertifikate inkl. Berufsattribut und Schlüssel für
+			* Qualifizierte elektronische Signatur
+			* Authentisierung (z.B. im Rahmen einer TLS-Verbindung)
+			* Ver-/Entschlüsselung von Daten (inzwischen nur HBA, außerhalb der TI)
+	}
+
+	F67: Beschreiben Sie ein stationäres Kartenterminal.
+	{
+		- Kommunikation mit Konnektor über Ethernet/ TLS-abgesichert
+		- Eigene kryptographische Identität (Pairing mit Konnektor)
+		- 2 Einsteckplätze für HBA und eGK
+		- PIN-Pad
+		- Kleiner Bildschirm für Statusmeldungen
+		- Abgeschirmt, sicherheitszertifiziert
+	}
+
+	F67: Beschreiben Sie ein mobiles Kartenterminal.
+	{
+		- Zwischenspeicher zur Speicherung mobil erfasster Daten
+		- Daten werden für HBA des Arztes verschlüsselt gespeichert
+		- recht kleiner Bildschirm
+		- kleiner integrierter Anwendungskonnektor mit Fachlogik
+		-> Idee für Tablets als neues Konzept
+	}
+
+	F68: Was sind "Primärsysteme? Nenne auch Beispiele."
+	{
+		- Systeme der Leistungserbringer
+		- haben keine direkte Verbindung zur TI
+			-> aber nachrichten-basierte Kommunikation über Konnektor
+		- Keine direkte Steuerung der Fachdienste der TI, sondern nur über Module des Konnektors
+			-> steuern dann die eigentlichen Fachdienste
+		- Beispiele:
+			* PVS, KIS
+	}
+}
+
+
+
+
+{
+
+	F69: Erklären und unterscheiden Sie kurz die Begriffe Authentifizierung, Autorisierung und Identifikation.
+	{
+		- Authentifizierung: Nachweis der Identität
+		- Autorisierung: Einräumung von speziellen Rechten basierend auf einer Identität
+		- Identifikation: Behauptung einer Identität
+	}
+
+	F70: Welche grundsätzlichen Methoden der Authentifizierung gitb es?
+	{
+		- Wissen
+		- Besitz
+		- körperliches Merkmal -> ist auch irgendwie Besitz
+	}
+
+	F70: Nenne Beispiele für Arten sich zu authentifizieren?
+	{
+		- Username/ Password
+		- Biometrische Daten, z.B. Fingerabruck, Face-ID
+		- Chipkarte
+	}
+
+	F71: Was ist Opt-Out? Erkläre anhand eines Beispiels.
+	{
+		Grundsätzlich hat man z.B. in Österreich eine ePatientenakte außer an widerspricht aktiv.
+	}
+
+	F72: In der Schweiz gibt es ein Multilevel-Security-Zugriffsmodel. Was ist das?
+	{
+		- Patient vergibt Vertraulichkeitssstufe an Dokumente -> Classification
+		- Patient vergibt Zugriffsstufe an "Gesundheitsfachpersonal" -> Clearance
+		- Zugriff, wenn Classification <= Clearance
+		- Notfallzugriff ohne explizite Rechtevergabe
+			-> kann aber abgeschalten werden
+	}
+
+	F73: Wie sollte man in einer E-healthanwendung am besten Authentifizierung umsetzen?
+	{
+		- Selber machen in der Anwendung -> nicht zu empfehlen
+		- Integration eines identity Providers -> z.B. openID Connect
+	}
+
+	F74: Worin unterscheidet sich ein Challenge-Response-Verfahren zu Passwort, TAn, usw.?
+	{
+		- Wissensnacheis zur Authentifizierung wird bei CR-Verfahren nicht direkt an den Server übertragen
+		- Dadurch kann das Passwort nicht einfach durch MITM abgefangen und gestohlen werden
+	}
+
+	F75: Wie genau funktioniert ein Challenge-Response-Verfahren?
+	{
+		- Server schickt "Challenge" an Client
+		- Erstellung einer elektr. Signatur auf die Challenge mit Hilfe eines krypt. privaten Schlüssels (von z.B. der Chipkarte)
+			-> Ergebnis (Response) an Server
+			-> Schlüssel wird nicht nich direkt übertragen
+		- Ergebnis wird serverseitig mittels elektr. Zert. überprüft
+			-> z.B. X.509-Zertifkat wenn Chipkarte
+	}
+
+	F76: Welche Arten gibt es eine Chipkarte zu aktivieren?
+	{
+		- PIN
+		- kryptographische Authentifizierung -> C2C mit HBA/SMC
+		- biometrische Aktivierung -> kommt in Zukunft irgendwann
+
+		-> Setzen von Security Condition, um bestimmte Informationsobjekte (Dateien, Schlüssel) der Karte lesen zu können
+	}
+
+	F77: Unterschied zwischen klassischer und kryptographischer Zugriffkontrolle?
+	{
+		- Software kann leicht gehackt werden
+		- Mathematik um einiges sicherer -> sehr gute Kryptographieverfahren
+		- Kryptographie als zusätzlicher Schutz -> klassiche Zugriffskontrolle wird zusätzlich zu Kryptographie verwendet
+	}
+
+	F78: Was ist Hybridverschlüsselung?
+	{
+		- Symm. Schlüssel wird verschlüsselt mit asymm. öffentlichem Schlüssel aller Berechtigten
+			-> Am Ende so viele asymm. verschlüsselte symm. Schlüssel wie Berechtigte in ACL
+			-> z.B. ein Eintrag mit Schlüssel für Arzt, der Zugriff hat und ein Eintrag für den Patienten
+	}
+
+	F79: Wie funktioniert das Konzept kryptographisch unterstützter Zugriffskontrolle auf Dokumentenebene?
+	{
+		- Policy auf Ebene von Dokumentenklassen (alle Dokumente einer Anwendung)
+		- Patient kann aber Rechte für einzelne Dokumente individuell festlege
+
+		Es gibt:
+			- Objekt-Tickets: mit Informationsobjekt assoziierte ACL
+				-> enthält alle Zugriffsberechtigungen für das Info-Objekt und die Kryptoschlüssel
+			-Service-Tickets: "Template" einer ACL für eine Info-Objekt-Klasse
+				-> Bei jedem neuen Info-Objekt dieser Klasse werden Objekt-Tickets nach dem Muster des Service-Tickets erstellt
+
+		Zugriff auf Informationen:
+			- Authentifizierung
+			- Rechtemanagement entscheidet ob Zugriff ok
+			- Datenübertragung
+			- Entschlüsselung des Dokumentenschlüssels aus Ticket mit dem provaten Schlüssel des Zugreifenden
+			- Entschlüsselung des Dokuments mit gerade gewonnenem symm. Dokumentenschlüssel
+			-> Dokumente lesbar
+
+		Rechtemanagement: Bsp:  Dauer-Berechtigung eines Arztes zum Zugriff auf bereits vorhandene PflegeakteDokumente des Patienten
+			- Erstellung eines Service-Tickets: enthält ID und öffentlichen Schlüssel des Arztes
+			- Signatur des Service-Tickets durch eGK des Patienten
+			- Bei jedem neuen Pflegeakte-Dokument wird anhand des Service-Tickets im zugehörigen Objekt-Ticket
+				* die ID des berechtigten Arztes aufgenommen
+				* der Dokumentenschlüssel mit dem öffentlichen Schlüssel des Arztes verschlüsselt und im Ticket aufgenomme
+			- Alle Tickets vom Typ „Pflegeakte-Dokument“ des Patienten werden (nach Authentifizierung der eGK) lokal geholt
+			- Die verschlüsselten Dokumentenschlüssel werden mit dem privaten eGK-Schlüssel entschlüsselt
+			- wieder zusätzlich mit dem öffentlichen Schlüssel des Arztes verschlüsselt
+			- die Tickets werden mit neuen Einträgen für den berechtigten Arzt ergänzt
+			-> Arzt hat nun Berechtigung und Eintrag im ACL
+	}
+
+	F70: Wie funktioniert das Konzept kryptographisch unterstützter Zugriffskontrolle auf Anwendungsebene?
+	{
+
+
+		- Rechte für alle Dokumente einer Anwendung (z.B. elektronische Patientenakte)
+		- Patient kann Arzt/Krankenhaus für die gesamte Akte autorisieren
+			-> Alles oder nichts Prinzip
+
+		Anwendungsschlüssel:
+			- Dokument wird mit einem individuellen symmetrischen Schlüssel verschlüsselt
+			- Alle symmetrischen Dokumentenschlüssel der Anwendung werden mit einem Anwendungsschlüssel (pro Patient) symmetrisch verschlüsselt
+			- Der Anwendungsschlüssel wird mit den jeweiligen asymmetrischen öffentlichen Schlüssel der Berechtigten verschlüsselt
+				* Zugriffsmuster: priv. Schlüssel z.B. auf HBA kann Anwendungsschlüssel entschlüsseln. Mit Anwendungsschlüssel können Dokumentenschlüssel entschlüsselt werden. Damit können die Dokumente entschlüsselt werden
+				* Berechtigter erhält dann Zugriff auf alle Dokumente der Anwendun
+	}
+
+	F81: Was sind Nachteile der kryptographisch unterstützten Zugriffskontrolle?
+	{
+		- Kompliziertes Rechtemanagement
+			-> Viele Krypto Opperationen
+			-> Rechteanpassung ist viel mehr als nur Anpassung eines Eintrags im ACL
+		- Kompliziertes Schlüsselmanagement
+			-> Wenn Schlüssel weg, Daten unzugänglich
+				-> Datenerhalt-Konzepte notwendig
+	}
+
+	F82: Warum braucht man Datenerhalt-Konzepte?
+	{
+		- Erforderlich ist eine „Umschlüsselung“ aller zentral gespeicherten Gesundheitsdaten eines Versicherten, wenn die eGK ausgetauscht wird
+		- Muss auch gehen, wenn eGk verloren/gestohlen
+	}
+
+	F83: Welche Anforderungen gibt es an ein Datenerhalt-Konzept?
+	{
+		- Keine Generalschlüssel
+		- Keine Speicherung des privaten Schlüssels
+		- Aktive beteiligung des Versicherten
+		- Muss auch nach Kartenausgabe noch implementierbar sein
+	}
+
+	F84: Welche administrativen Zugänge zum Gesundheitssystem gibt es?
+	{
+		- gesetzlichen Krankenversicherungen (Krankenkassen)
+			-> Arbeitnehmer in abhängiger B<eschäftigung oder Rentner
+		- private Krankenversicherungen
+			-> Gewerbetreibende, Unternehmer, Beamte, ...
+	}
+
+	F85: Welcher Dokumente für den Berechtigungsnachweis gibt es?
+	{
+		- Krankenschein
+		- Krankenversichertenkarte (KVK)
+		- elektronische GEsundheitskarte (eGK)
+	}
+
+	F86: Nenne Verbesserungen der eGK gegenüber der KVK.
+	{
+		- Speicher geschützt -> Auslesen nur nach Autorisierung
+		- Bei Verlust -> Sperrung möglich
+		- Bei Datenänderung -> Online-Aktualisierung der Stammdaten
+	}
+
+	F87: Wie funktioniert der Versichertennachweis auf der eGK offline?
+	{
+		- Anwendung von Versichertenstammdatenmanagement (VSDM)
+		- Stammdaten sind im Chip auf Karte gespeichert
+		- Karte wird beim Arztbesuch ausgelesen
+	}
+
+	F87: Wie funktioniert der Versichertennachweis auf der eGK online?
+	{
+		- Aufbau einer Online-Verbing zwischen Arztpraxis und zu einem Dienst der Krankenkassen mittels TI
+			-> Nutzen des Update Flag Service (UFS)
+		- Online Nachfrage, ob Aktualisierung für die Daten der eGK verfügbar
+			- nein: elektronische Quittung wird von UFS ausgestellt
+				-> VSD aus eGK ä Quittung werden für Abrechnung verwendet
+			- ja: Aufbau Verbindung zu VSD-Dienst
+				-> Datensatz auf Chipkarte wird online aktualisert
+				-> elektronische Quittung wird vom VSDM ausgestellt und für Abrechnung genutzt
+	}
+
+	F88: Wofür wird der Versucherungsnachweis hauptsächlich verwendet?
+	{
+		- Für die Abrechnung des Arztes
+	}
+
+	F89: Wie läuft der Prozess einer Datenänderung auf der Chipkarte ab?
+	{
+		- ging früher mit KVK nicht und mit offline eGK
+		- geht nur online mit eGK über Online VSDM:
+			- Versicherte melden neue Anschrift an Krankenkasse
+			- Krankenkasse pflegt Daten in VSDM-Datenbank ein
+			- Update Flag des UFS wird gesetzt
+			- Bei nächstem Kontakte der eGK mit TI: Online Aktualisierung über VSDM Dienst
+	}
+
+	F90: Wie unterscheidet sich das VSDM von Deutschland zu Österreich?
+	{
+		- VSD sind auf der österreichischen eCard nicht auf der Karte gespeichert
+	}
+
+	F91: Inwiefern kommuniziert die Arztpraxis mit den Krankenkassen nur asynchron und warum?
+	{
+		- Kommunikation läuft über eGK als Intermediär/Mittelsmann
+		- Dadurch wird Identität des arztes anonymisiert
+			-> Sonst könnten Krankenkassen Bahandlung beeinflussen
+	}
+
+	F92: Wo wird das eRezept/ elektronische Verordnung in DE bereits eingesetzt?
+	{
+		- In Closed-Loop Prozessen intern in Krankenhäusern -> eigene Implementierungen
+	}
+
+	F93: Welchen Nutzen hat eine elektronische Verordnung / eRezept?
+	{
+		- Lesbarkeit erhöhen -> schlechte Handschrift (Wenn Rezept manuell geschrieben)
+		- Fehler vermeiden
+			- Medienbruch vermeiden
+		- elektronische Plausibilitätsprüfung
+		- Kosteneinsparung durch eRezept
+		- Kontrolle und Transparenz
+	}
+
+	F94: Warum wurde eRezept in DE noch nicht eingeführt?
+	{
+		- zu früher test von unreifem Prozess -> Öffentlichkeit wurde gebrandmarkt
+		- Prozess der Papier-verordnung ist (zu) gut
+			-> Kein dringlicher Bedarf
+			-> in DE eRezept mit Papier als Datenträger
+	}
+
+	F95: Welche Umsetzung für eRezept fallen dir ein?
+	{
+		- Offline-Anwendung -> Chaipkarte z.B. als Datenträger
+		- Online-Anwendung -> WebService-Lösung (SOAP/REST) -> Kommunikation über PVS
+		- Hybrides Konzept -> Offline und Online Möglichkeit
+			-> Speichern auf Chipkarte möglich oder Verwendung von Online-Dienst und speichern von Pointer auf Karte
+	}
+
+
+	F96: Nenne Sie einen konzeptionellen Vor- und Nachteil des Hybriden eRezept Konzeptes von 2008.
+	{
+		+ Hoher Datenschutz
+		- Hohe Komplexität
+		- Es können damit nicht alle etablierten Prozesse abgebildet werden
+			-> z.B. Einlösung von Rezepten durch Verwandte, Diskretversand durch Online-Apotheken
+	}
+
+	F97: Welche Probeleme kommen beim Offline eRezept auf im Vergleich zur Online Lösung?
+	{
+		- Physische Präsenz beim Arzt erforderlich
+			-> Doof für Wiederholungsrezepte
+			-> Doof für Online-Apotheken
+		-  Authentizität, Integrität und Verbindlichkeit des Datensatzes schwieriger zu gewährleisten
+			-> Kein allgemeine Sicherung durch Zugangsschutz des Fachdienste
+			-> elektronische Signatur nötig
+		- Es muss sichergestellt werden, dass ein Rezept nicht zweimal verwendet wird
+			-> Online-Prüfung von Duplikaten
+			-> Mindestens das muss Online geschehen
+	}
+
+	F98: Was ist eine Patientenquittung?
+	{
+		- Wenn man zum Arzt geht, wird man untersucht
+		- Arzt muss diese Behandlung sehr genau nach Katalog festhalten
+		- diese Informationen stehen dann auch in den Abrechnungsinformationen
+			-> Patient bekommt diese nur auf Anforderung
+	}
+
+	F99: Was versteht man unter "Upcoding"?
+	{
+		Kontext: Nutzung von Abrechnungsdaten für medizinisches Zwecke
+		-> Arzt macht Patienten auf Papier kränker als sie sind
+		-> sodass er mehr Geld bekommt
+	}
+}
